@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+
+}
+.navbar-brand{
+  font-weight: bolder;
+  font-size: 28px;
+  color:white;
+}
+.bgcolor{
+    background-color:#7f9175;
+    color: white;
+}
+.navbartop{
+  width: 100%;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.btn{
+  margin:2px;
+  border-radius: 0;
+  width:135px;
+}
+/*.events{
+  background: url("./outdoor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  z-index: -999;
+} */
+@media (max-width:720px) {
+  .same{
+    display: flex;
+    justify-content: center;
+
+  }
+}
