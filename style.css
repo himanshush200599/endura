@@ -4,6 +4,33 @@
   box-sizing: border-box;
 
 
+
+}
+#logo{
+  width:100px;
+  border-radius: 50%;
+  height:100px;
+  margin-left: 35px;
+}
+ul{
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 3px black;
+  color:white;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  background-color: #2e2e2e;
+}
+.btn{
+  border-radius: 0;
+}
+body{
+  overflow-x: hidden;
+
 }
 .navbar-brand{
   font-weight: bolder;
@@ -17,7 +44,11 @@
 .navbartop{
   width: 100%;
 }
-
+.poster{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
 .heading{
   display: block;
   text-align: center;
