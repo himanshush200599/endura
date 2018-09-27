@@ -36,6 +36,7 @@
   border-radius: 0;
   width:235px;
 }
+
 .outdoor{
   background: url("./outdoor.jpg");
   background-position: center;
@@ -54,8 +55,15 @@ section img{
   width:260px;
   height:260px;
 }
+
 a{
   text-decoration: none;
+}
+p{
+  color:black;
+}
+label{
+  color:black;
 }
 @media (max-width:987px) {
   .same{
