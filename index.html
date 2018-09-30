@@ -1,318 +1,539 @@
-    *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-
-
-
-}
-.social
-{
-  filter: grayscale(100%);
-}
-.carousel-caption
-{
-  left: 960px;
-  bottom: 0;
-  background-color: #bfbfbf;
-  padding: 1px;
-  width: 250px;
-  margin-bottom: 40px;
-  color: #001a33;
-  box-shadow: 2px 2px 2px 2px black;
-}
-#ldin:hover{
-  color: #0077b5;
-  size: 200px;
-}
-#navbarNavAltMarkup{
-  color: black;
-}
-#a{
-color: #f1f1f1;
-text-shadow: 1px 1px 1px white;
-padding: 15px 15px !important;
-
-}
-#b{
-color: #f1f1f1;
-text-shadow: 1px 1px 1px white;
-padding: 15px 15px !important;
-
-}
-#c{
-color: #f1f1f1;
-text-shadow: 1px 1px 1px white;
-padding: 15px 15px !important;
-
-}
-#d{
-  color: #f1f1f1;
-  text-shadow: 1px 1px 1px white;
-  padding: 15px 15px !important;
-
-}
-#a.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#a:hover,#a:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}
-#b.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#b:hover,#b:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}#c.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#c:hover,#c:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}#d.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#d:hover,#d:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}
-.text
-{
-  font-family: tahoma;
-  font-weight: bolder;
-  font-size: 2px;
-}
-#logo{
-  width:90px;
-  height:50px;
-  margin-left: 10px;
-}
-.about
-{
-  color: #ebebe0;
-}
-#abt
-{
-  left: 25%;
-  position: relative;
-}
-#abtu
-{
- left: 250px;
- top:20px; 
-   text-align: left;
-  color:black;
-  position: relative;
-text-shadow: 2px 2px 2px 2px white;
-}
-#abouts
-{
-  background-image: url(back.jpg);
-  color: white;
-  font-family:Courier New Header;
-  font-weight: bolder;
-  font-size: 18px;
-  left: 0px;
-  text-shadow: 0.5px 0.5px 0.5px #009900;
-position: relative;
-height: 750px;
-}
-#listofgame
-{
-  color:#1a1a1a;
-  text-shadow: 0.5px 0.5px 0.5px red;
-  font-size: 17px;
-
-}
-#aboutusbox
-{
-  border: 2px solid black;
-  padding-left: 4px;
-  padding-right: 4px;
-  width: 275px;
-  position: relative;
-  margin-bottom: 30px;
-  font-family: tahoma;
-  font-weight: bolder;
-  box-shadow: 1px 1px 1px 1px black;
-  left: 200px;
-  color: black;
-  text-shadow: 1px 1px 1px black;
-}
-ul{
-  padding-left: 8px;
-  font-family: tahoma;
-  font-size: 15px;
-  font-weight: bolder;
-  color:#1f2e2e;
-  text-shadow: 1px black;
-}
-.footer{
-  display: flex;
-  justify-content: center;
-align-items: center;
-  background-color: #5f5f5f;
-}
-.foot
-{
-  color: #f1f1f1;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-shadow: 0.5px 0.5px 0.5px white;
-}
-#reg{
-  border-radius: 0;
-  border: none;
-  outline: none;
-  font-family: Times New Roman;
-  font-size: 22px;
-background-color: #1f7a1f;
-box-shadow: 2px 2px 2px 2px black;
-
-}
-#map
-{
-  position: relative;
-  right: 25px;
-  top: 20px;
-
-}
-#reg:hover
-{
-  background-color: #2aa22a;
-  transition: 0.2s ease;
-}
-#con
-{
-  font-size: 15px;
-}
- #contact
-  {
-    background-image: url(123.jpg);
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+  <link rel="stylesheet" href="style.css">
+<title >Endura 2K18</title>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 545px;
   }
-#mail
-{
-  color: #004d4d;
-}
-body{
-  overflow-x: hidden;
+  </style>
+</head>
+<body>
+    <div class="navbartop" >
+      <nav class="navbar navbar-expand-lg navbar-light bgcolor " >
 
-}
-.navbar-brand{
-  font-weight: bolder;
-  font-size: 28px;
-  color:white;
-  font-family: #f1f1f1
+        <a class="navbar-brand" href="#"><img src="./logo.png" alt="logo of endura" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto fl">
+            <a class="nav-item nav-link active" href="#" id="a"><span class="fa fa-home fa-lg"></span> Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link"  href="#events" id="b"><span class="fa fa-calendar" ></span> Rule Book</a>
+            <a class="nav-item nav-link" href="#abouts" id="c"><span class="fa fa-info fa-lg"></span> About Us</a>
+            <a class="nav-item nav-link" href="#contact" id="d"><span class="fa fa-address-card fa-lg"></span> Contact Us</a>
+          </div>
+        </div>
 
-letter-spacing:1px;
-font-family:"Segoe UI",Arial,sans-serif;
+      </nav>
+    </div>
+    <div  id ="slider">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+           <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+                 <li data-target="#demo" data-slide-to="5"></li>
+                 <li data-target="#demo" data-slide-to="6"></li>
+                 <li data-target="#demo" data-slide-to="7"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="tech.jpg" alt="Los Angeles" class="img-responsive">
+          
+        </div>
+        <div class="carousel-item">
+          <img src="basketball.jpg" alt="Chicago" class="img-responsive" >
+          <div class="carousel-caption">
+         <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="football.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+          <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div> 
+        <div class="carousel-item">
+          <img src="volleyball.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+                <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div> 
+        <div class="carousel-item">
+          <img src="badminton.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+               <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="snooker.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+               <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="tech.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+               <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="tech.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+                <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="tech.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+                <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
 
-}
-.bgcolor{
-    background-color:#5f5f5f;
-    color: #f1f1f1;
-}
-.navbartop{
-  width: 100%;
-  padding: 0px;
-}
-.poster{
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.heading{
-  display: block;
-  text-align: center;
-  color: white;
-  font-weight: bolder;
-  font-size: 22px;
-}
-.title{
-  font-weight: bolder;
-  padding-top: 40px;
-  color: black;
-  font-size: 20px;
-  font-family: Times New Roman;
-  text-shadow: 1px 1px 1px black;
-}
-.add{
-  font-size: 18px;
-}
-.outdoor .btn,
-.indoor .btn{
-  margin:25px;
-  border-radius: 0;
-  width:235px;
-  border-radius: 0;
-  border: none;
-  outline: none;
-  font-family: Times New Roman;
-  font-size: 22px;
-background-color: #1f7a1f;
-box-shadow: 2px 2px 2px 2px black;
-}
-.outdoor .btn:hover,
-.indoor .btn:hover
-{
-  background-color: #2aa22a;
-  transition: 0.2s ease;
-}
-.outdoor{
-  background: url("./outdoor.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width:100%;
-  height:350px;
-}
-.indoor{
-  background: url("./indoor.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-}
-section img{
-  width:260px;
-  height:260px;
-}
+</div>
+<div>
+  <div id="events">
+    <div class="outdoor">
+    <div class="heading animated bounce">
+      <h1 class="title ">OUTDOOR GAMES</h1>
+    </div>
+    <div class="d-flex flex-column align-items-center flex-lg-row justify-content-around same flex-wrap" >
 
-a{
-  text-decoration: none;
-}
-p{
-  color:black;
-}
+    <div class="p-1">
+    <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Cricket</button>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sapiente suscipit nemo voluptatibus modi, adipisci, quasi recusandae eum accusamus aliquam.
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-label{
-  color:black;
-}
-@media (max-width:987px) {
-  .same{
-    display: flex;
-    justify-content: center;
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    <div class='p-1'>
+      <button class="btn btn-lg btn-primary  animated bounce" data-toggle="modal" data-target="#2">Badminton</button>
+      <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <ul>
+        <li>Students have to bring their college id-card.</li>
+        <li>Game will be played in two modes:-
+Singles
+Doubles
+</li>
+        <li>Those who want to play doubles have to come along with their team mates.</li>
+        <li>All the matches of first round will be of 15 points. Eight players from singles and Eight team from doubles will move on to the second round.</li>
+        <li> Each match will be knockout.</li>
+        <li>Second round will be of 21 points, winners of this round will play semi final.</li>
+        <li> Winner of final will be qualified directly for Endura.</li>
+        <li>Certificate will be provided to top 16.</li>
+        <li>Prize will be provided to the winners accordingly.</li>
+      </ul>
+      <b>
+      Entry fee:-
+- for singles ₹ 50/-   
+- For doubles ₹ 100/-
+</b>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-  }
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <div class="p-1 ">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Football</button>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate tenetur, suscipit sequi illum laborum exercitationem eius possimus illo architecto.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Basketball</button>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium doloremque minima enim id voluptatibus quia soluta totam eos hic!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#n">Volleyball</button>
+        <div class="modal fade" id="n" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" class="text" >
+        <ul >
+          <li>Enteries are allowed only for the students of Miet along with their id-card.</li>
+          <li>Maximum 9 players can be there in each team squad out of which only 6 will take the field.</li>
+          <li>All the matches will be of 15 points. First team to score 15 points will qualify for the next round.</li>
+          <li> The decisions given by the umpire will be strictly followed, if anyone misbehaves then their team will be disqualified.</li>
+          <li>The player played for one team will not be allowed to play for other teams, if found doing so, the team will then be disqualified.</li>
+        </ul>
+        <b>
+        Entry fees - ₹ 300/- per team.</b>
+                </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class="indoor">
+  <div class="heading animated rubberBand">
+    <h1 class="title">INDOOR GAMES</h1>
+  </div>
+
+<div class="d-flex flex-column align-items-center  flex-lg-row justify-content-around same flex-wrap">
+
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#5">Table Tennis</button>
+      <div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <ul>
+        <li> Students have to bring their college id-card.</li>
+         <li>Game will be played in two modes:-
+Singles
+Doubles
+Students have to bring their college id-card.</li>
+         <li>Those who want to play double has to come along with his team mate.</li>
+         <li>All the matches of first round will be of 21 points. Eight players from single and Eight team from doubles will move on to the second round.</li>
+         <li>Each match will be knockout.</li>
+         <li>Second round will be of 21 points, winners of this round will play semi final.</li>
+        <li>Winners of final will be qualified directly for Endura.</li>
+        
+       </ul>
+       <b>Entry fee:-
+- for singles ₹ 50/-                                                                     
+- For doubles ₹ 100/-
+
+       </b>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Foosball</button>
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita placeat vel numquam qui, odit molestias saepe ducimus illum perferendis.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#7">Chess</button>
+      <div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Fair play policy.</li>
+          <li>Participant should be clear with all the rule.</li>
+          <li>After two illegal moves or warning they will be disqualified.</li>
+          <li>Knockout rounds.</li>
+          <li>Use of CHESSCLOCK is mandatory.</li>
+          <li>Winners will represent our college in ENDURA.</li>
+          <li>Game will be held on 3rd feb.</li>
+          <li>Certificate will be provided to top 16.</li>
+          <li>Prize will be provided to the winners accordingly.</li>
+        </ul>
+        <b>
+           Entry fee:- ₹ 50/-
+        </b>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Snooker</button>
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Carrom</button>
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ad vel velit similique, tempora consectetur, nemo. Unde voluptatem reprehenderit quisquam.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- About us -->
+<!-- Section: Team v.1 -->
+<section class="team-section text-center my-5" id="abouts">
+<div id="abt">
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold my-5" id="abtu">About Us</h2>
+  <!-- Section description -->
  
-.outdoor{
-  margin: 0;
-  height:600px;
 
-}
-.indoor{
-  margin:0;
-  height:600px;
-}
-.btn{
-  margin:16px;
-}
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-6 col-md-6 mb-lg-0 mb-5">
+      <p class="about">The Pre-Endura 2k18 is going to be held on 6-7th oct-2018 in the college premises. Pre-Endura is a intra college sports fest of miet. It is a great platform to showcase your talent so as to get chance to represent your college team in Endura which is a inter college sports fest.</p>
+      Following are the games which will be played in Pre-Endura:-
+      <ul id="listofgame" type="none">
+        <li>Basketball</li>
+        <li>Volleyball</li>
+        <li>Football</li>
+        <li>Badminton</li>
+        <li>Snooker</li>
+        <li>Table Tennis</li>
+        <li>Chess</li>
+        <li>Carrom</li>
+      </ul>
+      All the students of college are requested to grace the occasion.
+      <div id="aboutusbox">REGISTRATION VENUE :-SPORTS CLUB, MIET
+        <br>
+DATE :- 06-OCT-2018
+<br>
+TIMING :- 10:00 AM ONWARDS
+</div>
+      <a href="https://goo.gl/forms/BETRriG84ONht8Wc2" target="_blank" type="submit" ><button class="btn btn-secondary btn-lg"   id="reg">Register Now</button></a>
+  </div>
+  
+  </div>
+  <!-- Grid row -->
+</div>
+</section>
+<!-- Section: Team v.1 -->
+<section id="contact">
+  <div class="row">
+  <div class="col-lg-6">
+    <div class="heading">
+      <h1 class="title"><b>MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</b>
+      <div class="details">
+        <div class="address">
+          <p class="add">N.H. 58, Delhi-Roorkee Highway, Baghpat Road Bypass Crossing Meerut - 250005. UP (India)</p>
+        </div>
+        <div class="contact">
+          <p class="number" id="con">
+            Phone : 0121-2439019/2439057  &nbsp &nbsp
+            Fax : 0121-2439058
+          </p>
+        </div>
+        <div class="email">
+          <label for="mail">Email:</label>
+          <a href="mailto:contact@miet.ac.in" id="mail"><i>contact@miet.ac.in</i></a>
+        </div>
+        <div class="social">
+          <ul class="list-unstyled mb-0">
+            <a  class="p-2 fa-lg link-ic" href="https://www.linkedin.com/school/mietgroup/" target="_blank">
+              <i class="fa fa-linkedin " > </i>
+            </a>            
+            <a class="p-2 fa-lg fb-ic" href='https://www.facebook.com/MIETGROUP/' target="_blank">
+              <i class="fa fa-facebook" id="fb"> </i>
+            </a>
+            <a class="p-2 fa-lg globe-ic" href='https://miet.ac.in' target="_blank">
+              <i class="fa fa-globe" id="gb"> </i>
+            </a>
+            <a class="p-2 fa-lg ins-ic" href='https://instagram.com/mietmeerut' target="_blank">
+              <i class="fa fa-instagram" id="ins"> </i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-6" id="map">
+    <div style="width: 100%"><iframe width="100%" height="430" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+  </div>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="foot">
+  
+        Designed by : Himanshu Sharma(CS-3rd) & Himanshu Shukla(CS-3rd)
+     
+  </div>
+
+</footer>
+
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
