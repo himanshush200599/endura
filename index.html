@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,18 +9,20 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
   <link rel="stylesheet" href="style.css">
-<title>Endura - Sports Events of MIET</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title >Endura 2K18</title>
   <style>
   /* Make the image fully responsive */
   .carousel-inner img {
       width: 100%;
-      height: 545px;
+      height: 610px;
   }
   </style>
+
 </head>
-<body>
-    <div class="navbartop">
-      <nav class="navbar navbar-expand-lg navbar-light bgcolor ">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="navbartop" id="navbar1">
+      <nav class="navbar navbar-expand-lg navbar-light bgcolor fixed-top " >
 
         <a class="navbar-brand" href="#"><img src="./logo.jpg" alt="logo of endura" id="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,10 +30,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto fl">
-            <a class="nav-item nav-link active" href="#"><span class="fa fa-home fa-lg"></span><strong> Home</strong> <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#events"><span class="fa fa-calendar" ></span><strong> Events</strong></a>
-            <a class="nav-item nav-link" href="#abouts"><span class="fa fa-info fa-lg"></span><strong> About Us</strong></a>
-            <a class="nav-item nav-link" href="#contact"><span class="fa fa-address-card fa-lg"></span><strong> Contact Us</strong></a>
+            <a class="nav-item nav-link active" href="#" id="a"><span class="fa fa-home fa-lg"></span> Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link"  href="#events" id="b"><span class="fa fa-calendar" ></span> Rule Book</a>
+            <a class="nav-item nav-link" href="#abouts" id="c"><span class="fa fa-info fa-lg"></span> About Us</a>
+            <a class="nav-item nav-link" href="#contact" id="d"><span class="fa fa-address-card fa-lg"></span> Contact Us</a>
           </div>
         </div>
 
@@ -43,27 +45,87 @@
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
+           <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+                 <li data-target="#demo" data-slide-to="5"></li>
+                 <li data-target="#demo" data-slide-to="6"></li>
+                 <li data-target="#demo" data-slide-to="7"></li>
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="tech.jpg" alt="Los Angeles" class="img-responsive">
+
+        </div>
+        <div class="carousel-item">
+          <img src="basketball.JPG" alt="basketball" class="img-responsive" >
           <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>We had such a great time in LA!</p>
+         <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="tech.jpg" alt="Chicago" class="img-responsive" >
+          <img src="football.jpg" alt="New York" class="img-responsive">
           <div class="carousel-caption">
-            <h3>Chicago</h3>
-            <p>Thank you, Chicago!</p>
+          <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
           </div>
         </div>
         <div class="carousel-item">
+          <img src="volleyball.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+                <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="badminton.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+               <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="snooker.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+               <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
           <img src="tech.jpg" alt="New York" class="img-responsive">
           <div class="carousel-caption">
-            <h3>New York</h3>
-            <p>We love the Big Apple!</p>
+               <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="tech.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+                <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="tech.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption">
+                <span><h4>Event Coordinators</h4></span>
+         <span><b>Atul yadav</b></span>
+         <br>
+         <span><b>mahesh prakash</b></span>
           </div>
         </div>
       </div>
@@ -76,7 +138,8 @@
     </div>
 
 </div>
-<div>
+
+<div >
   <div id="events">
     <div class="outdoor">
     <div class="heading animated bounce">
@@ -107,18 +170,36 @@
 </div>
     </div>
     <div class='p-1'>
-      <button class="btn btn-lg btn-primary  animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Badminton</button>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <button class="btn btn-lg btn-primary  animated bounce" data-toggle="modal" data-target="#2">Badminton</button>
+      <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet optio at aliquid cumque non, dolorum autem libero aperiam quam, ducimus.
+      <ul>
+        <li>Students have to bring their college id-card.</li>
+        <li>Game will be played in two modes:-
+Singles
+Doubles
+</li>
+        <li>Those who want to play doubles have to come along with their team mates.</li>
+        <li>All the matches of first round will be of 15 points. Eight players from singles and Eight team from doubles will move on to the second round.</li>
+        <li> Each match will be knockout.</li>
+        <li>Second round will be of 21 points, winners of this round will play semi final.</li>
+        <li> Winner of final will be qualified directly for Endura.</li>
+        <li>Certificate will be provided to top 16.</li>
+        <li>Prize will be provided to the winners accordingly.</li>
+      </ul>
+      <b>
+      Entry fee:-
+- for singles ₹ 50/-
+- For doubles ₹ 100/-
+</b>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -175,19 +256,27 @@
     </div>
 
     <div class="p-1">
-        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Volleyball</button>
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#n">Volleyball</button>
+        <div class="modal fade" id="n" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit libero nesciunt sapiente ipsa numquam commodi molestiae, voluptatum sunt vel eligendi.
-        </div>
+        <div class="modal-body" class="text" >
+        <ul >
+          <li>Enteries are allowed only for the students of Miet along with their id-card.</li>
+          <li>Maximum 9 players can be there in each team squad out of which only 6 will take the field.</li>
+          <li>All the matches will be of 15 points. First team to score 15 points will qualify for the next round.</li>
+          <li> The decisions given by the umpire will be strictly followed, if anyone misbehaves then their team will be disqualified.</li>
+          <li>The player played for one team will not be allowed to play for other teams, if found doing so, the team will then be disqualified.</li>
+        </ul>
+        <b>
+        Entry fees - ₹ 300/- per team.</b>
+                </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
@@ -206,18 +295,35 @@
 <div class="d-flex flex-column align-items-center  flex-lg-row justify-content-around same flex-wrap">
 
   <div class="p-1">
-      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Table Tennis</button>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#5">Table Tennis</button>
+      <div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet adipisci ducimus assumenda tenetur, perferendis voluptatem, reiciendis pariatur ad doloremque cupiditate.
+       <ul>
+        <li> Students have to bring their college id-card.</li>
+         <li>Game will be played in two modes:-
+Singles
+Doubles
+Students have to bring their college id-card.</li>
+         <li>Those who want to play double has to come along with his team mate.</li>
+         <li>All the matches of first round will be of 21 points. Eight players from single and Eight team from doubles will move on to the second round.</li>
+         <li>Each match will be knockout.</li>
+         <li>Second round will be of 21 points, winners of this round will play semi final.</li>
+        <li>Winners of final will be qualified directly for Endura.</li>
+
+       </ul>
+       <b>Entry fee:-
+- for singles ₹ 50/-
+- For doubles ₹ 100/-
+
+       </b>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -250,18 +356,31 @@
   </div>
   </div>
   <div class="p-1">
-      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Chess</button>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#7">Chess</button>
+      <div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ut voluptatem aspernatur ab similique pariatur obcaecati numquam voluptas excepturi qui.
+        <ul>
+          <li>Fair play policy.</li>
+          <li>Participant should be clear with all the rule.</li>
+          <li>After two illegal moves or warning they will be disqualified.</li>
+          <li>Knockout rounds.</li>
+          <li>Use of CHESSCLOCK is mandatory.</li>
+          <li>Winners will represent our college in ENDURA.</li>
+          <li>Game will be held on 3rd feb.</li>
+          <li>Certificate will be provided to top 16.</li>
+          <li>Prize will be provided to the winners accordingly.</li>
+        </ul>
+        <b>
+           Entry fee:- ₹ 50/-
+        </b>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -322,64 +441,78 @@
 </div>
 <!-- About us -->
 <!-- Section: Team v.1 -->
-<section class="team-section text-center my-5" id="abouts">
-
+<section class="team-section text-center " id="abouts">
+<div id="abt">
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-5">About Us</h2>
+  <h2 class="h1-responsive font-weight-bold" id="abtu">About Us</h2>
   <!-- Section description -->
-  <p class="grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptates.</p>
+
 
   <!-- Grid row -->
-  <div class="row">
+  <div class="container">
+  <div class="row" >
 
     <!-- Grid column -->
-    <div class="col-lg-6 col-md-6 mb-lg-0 mb-5">
-      <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error, adipisci. Quis accusamus tempora iste distinctio praesentium, vel perspiciatis ex aperiam labore pariatur assumenda dolorem exercitationem totam delectus reiciendis mollitia cumque unde, facere eaque doloribus non consequuntur sequi ducimus. Laudantium iure asperiores qui at, perspiciatis voluptatem consequuntur dicta odio quis?</p>
-      <a href="https://goo.gl/forms/BETRriG84ONht8Wc2" target="_blank" type="submit" ><button class="btn btn-secondary btn-lg"   >Register Now</button></a>
+    <div >
+      <p class="about">The Pre-Endura 2k18 is going to be held on 6-7th oct-2018 in the college premises. Pre-Endura is a intra college sports fest of miet. It is a great platform to showcase your talent so as to get chance to represent your college team in Endura which is a inter college sports fest.</p>
+      Following are the games which will be played in Pre-Endura:-
+      <ul id="listofgame" type="none">
+        <li>Basketball</li>
+        <li>Volleyball</li>
+        <li>Football</li>
+        <li>Badminton</li>
+        <li>Snooker</li>
+        <li>Table Tennis</li>
+        <li>Chess</li>
+        <li>Carrom</li>
+      </ul>
+      All the students of college are requested to grace the occasion.
+      <div id="aboutusbox">REGISTRATION VENUE :-SPORTS CLUB, MIET
+        <br>
+DATE :- 06-OCT-2018
+<br>
+TIMING :- 10:00 AM ONWARDS
+</div>
+      <a href="https://goo.gl/forms/BETRriG84ONht8Wc2" target="_blank" type="submit" ><button class="btn btn-secondary btn-lg"   id="reg">Register Now</button></a>
   </div>
-  <div class="col-lg-6 col-md-6">
-    <div class="poster">
-      <img src="./poster.png" alt="Poster of Endura" class="poster">
-    </div>
-  </div>
+</div>
   </div>
   <!-- Grid row -->
-
+</div>
 </section>
 <!-- Section: Team v.1 -->
 <section id="contact">
   <div class="row">
-  <div class="col-lg-6">
+  <div class="col-lg-6 imgc">
     <div class="heading">
-      <h1 class="title">MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</h1>
+      <h1 class="title"><b>MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</b>
       <div class="details">
         <div class="address">
           <p class="add">N.H. 58, Delhi-Roorkee Highway, Baghpat Road Bypass Crossing Meerut - 250005. UP (India)</p>
         </div>
         <div class="contact">
-          <p class="number">
-            Phone : 0121-2439019/2439057 <br>
+          <p class="number" id="con">
+            Phone : 0121-2439019/2439057  &nbsp &nbsp
             Fax : 0121-2439058
           </p>
         </div>
         <div class="email">
           <label for="mail">Email:</label>
-          <a href="mailto:contact@miet.ac.in" id="mail">contact@miet.ac.in</a>
+          <a href="mailto:contact@miet.ac.in" id="mail"><i>contact@miet.ac.in</i></a>
         </div>
         <div class="social">
           <ul class="list-unstyled mb-0">
-            <a class="p-2 fa-lg link-ic" href='' target="_blank">
-              <i class="fa fa-linkedin blue-text"> </i>
+            <a  class="p-2 fa-lg link-ic" href="https://www.linkedin.com/school/mietgroup/" target="_blank">
+              <i class="fa fa-linkedin " > </i>
             </a>
-            <!-- Github -->
-            <a class="p-2 fa-lg fb-ic" href='https://facebook.com/mietmeerut' target="_blank">
-              <i class="fa fa-facebook blue-text"> </i>
+            <a class="p-2 fa-lg fb-ic" href='https://www.facebook.com/MIETGROUP/' target="_blank">
+              <i class="fa fa-facebook" id="fb"> </i>
             </a>
             <a class="p-2 fa-lg globe-ic" href='https://miet.ac.in' target="_blank">
-              <i class="fa fa-globe blue-text"> </i>
+              <i class="fa fa-globe" id="gb"> </i>
             </a>
             <a class="p-2 fa-lg ins-ic" href='https://instagram.com/mietmeerut' target="_blank">
-              <i class="fa fa-instagram blue-text"> </i>
+              <i class="fa fa-instagram" id="ins"> </i>
             </a>
           </ul>
         </div>
@@ -387,23 +520,100 @@
     </div>
 
   </div>
-  <div class="col-lg-6">
-    <div style="width: 100%"><iframe width="100%" height="430" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+  <div class="col-lg-6" >
+    <div id="map"><iframe width="100%" height="430" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
   </div>
 </div>
 </section>
 
 <footer class="footer">
   <div class="foot">
-    <ul class="item">
-      <li class="listitem">
-        Design And Developed By - LBD Team
-      </li>
-    </ul>
+
+      <div class="us">
+        <div class="ushead">Design By</div>
+          <div class="usboth">
+            <div class="us1">
+              <div class="us1name">Himanshun Sharma(CSE 3rd) </div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='https://www.linkedin.com/in/himanshu200599/' target="_blank">
+                <i class="fa fa-linkedin" id="fb"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='https://www.github.com/himanshush200599/' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+            <div class="us2">
+              <div class="us1name">Himanshun Shukla(CSE 3rd)</div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='#' target="_blank">
+                <i class="fa fa-linkedin" id="fb"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='#' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+          </div>
+      </div>
+      <div class="mem">
+        <div class="other">Other team member - {Mayank and Manishka}</div>
+        </div>
   </div>
 
 </footer>
 
+<script>
+$(document).ready(function () {
+  $('nav a').click(function(e) {
+
+      $('nav  a').removeClass('active');
+
+      var $parent = $(this);
+      $parent.addClass('active');
+      $parent.scrollIntoView({
+  behavior: 'smooth'
+});
+
+  });
+});
+</script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+document.getElementById("navbar1").style.top = "0";
+document.getElementById("navbar1").style.zIndex = "999";
+
+} else {
+document.getElementById("navbar1").style.top = "-50px";
+}
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
