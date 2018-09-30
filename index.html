@@ -9,20 +9,22 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title >Endura 2K18</title>
   <style>
   /* Make the image fully responsive */
   .carousel-inner img {
       width: 100%;
-      height: 545px;
+      height: 610px;
   }
   </style>
-</head>
-<body>
-    <div class="navbartop" >
-      <nav class="navbar navbar-expand-lg navbar-light bgcolor " >
 
-        <a class="navbar-brand" href="#"><img src="./logo.png" alt="logo of endura" id="logo"></a>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="navbartop" id="navbar1">
+      <nav class="navbar navbar-expand-lg navbar-light bgcolor fixed-top " >
+
+        <a class="navbar-brand" href="#"><img src="./logo.jpg" alt="logo of endura" id="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,10 +54,10 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="tech.jpg" alt="Los Angeles" class="img-responsive">
-          
+
         </div>
         <div class="carousel-item">
-          <img src="basketball.jpg" alt="Chicago" class="img-responsive" >
+          <img src="basketball.JPG" alt="basketball" class="img-responsive" >
           <div class="carousel-caption">
          <span><h4>Event Coordinators</h4></span>
          <span><b>Atul yadav</b></span>
@@ -71,7 +73,7 @@
          <br>
          <span><b>mahesh prakash</b></span>
           </div>
-        </div> 
+        </div>
         <div class="carousel-item">
           <img src="volleyball.jpg" alt="New York" class="img-responsive">
           <div class="carousel-caption">
@@ -80,7 +82,7 @@
          <br>
          <span><b>mahesh prakash</b></span>
           </div>
-        </div> 
+        </div>
         <div class="carousel-item">
           <img src="badminton.jpg" alt="New York" class="img-responsive">
           <div class="carousel-caption">
@@ -136,7 +138,8 @@
     </div>
 
 </div>
-<div>
+
+<div >
   <div id="events">
     <div class="outdoor">
     <div class="heading animated bounce">
@@ -194,7 +197,7 @@ Doubles
       </ul>
       <b>
       Entry fee:-
-- for singles ₹ 50/-   
+- for singles ₹ 50/-
 - For doubles ₹ 100/-
 </b>
       </div>
@@ -314,10 +317,10 @@ Students have to bring their college id-card.</li>
          <li>Each match will be knockout.</li>
          <li>Second round will be of 21 points, winners of this round will play semi final.</li>
         <li>Winners of final will be qualified directly for Endura.</li>
-        
+
        </ul>
        <b>Entry fee:-
-- for singles ₹ 50/-                                                                     
+- for singles ₹ 50/-
 - For doubles ₹ 100/-
 
        </b>
@@ -438,18 +441,19 @@ Students have to bring their college id-card.</li>
 </div>
 <!-- About us -->
 <!-- Section: Team v.1 -->
-<section class="team-section text-center my-5" id="abouts">
+<section class="team-section text-center " id="abouts">
 <div id="abt">
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-5" id="abtu">About Us</h2>
+  <h2 class="h1-responsive font-weight-bold" id="abtu">About Us</h2>
   <!-- Section description -->
- 
+
 
   <!-- Grid row -->
-  <div class="row">
+  <div class="container">
+  <div class="row" >
 
     <!-- Grid column -->
-    <div class="col-lg-6 col-md-6 mb-lg-0 mb-5">
+    <div >
       <p class="about">The Pre-Endura 2k18 is going to be held on 6-7th oct-2018 in the college premises. Pre-Endura is a intra college sports fest of miet. It is a great platform to showcase your talent so as to get chance to represent your college team in Endura which is a inter college sports fest.</p>
       Following are the games which will be played in Pre-Endura:-
       <ul id="listofgame" type="none">
@@ -471,7 +475,7 @@ TIMING :- 10:00 AM ONWARDS
 </div>
       <a href="https://goo.gl/forms/BETRriG84ONht8Wc2" target="_blank" type="submit" ><button class="btn btn-secondary btn-lg"   id="reg">Register Now</button></a>
   </div>
-  
+</div>
   </div>
   <!-- Grid row -->
 </div>
@@ -479,7 +483,7 @@ TIMING :- 10:00 AM ONWARDS
 <!-- Section: Team v.1 -->
 <section id="contact">
   <div class="row">
-  <div class="col-lg-6">
+  <div class="col-lg-6 imgc">
     <div class="heading">
       <h1 class="title"><b>MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</b>
       <div class="details">
@@ -500,7 +504,7 @@ TIMING :- 10:00 AM ONWARDS
           <ul class="list-unstyled mb-0">
             <a  class="p-2 fa-lg link-ic" href="https://www.linkedin.com/school/mietgroup/" target="_blank">
               <i class="fa fa-linkedin " > </i>
-            </a>            
+            </a>
             <a class="p-2 fa-lg fb-ic" href='https://www.facebook.com/MIETGROUP/' target="_blank">
               <i class="fa fa-facebook" id="fb"> </i>
             </a>
@@ -516,21 +520,100 @@ TIMING :- 10:00 AM ONWARDS
     </div>
 
   </div>
-  <div class="col-lg-6" id="map">
-    <div style="width: 100%"><iframe width="100%" height="430" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+  <div class="col-lg-6" >
+    <div id="map"><iframe width="100%" height="430" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
   </div>
 </div>
 </section>
 
 <footer class="footer">
   <div class="foot">
-  
-        Designed by : Himanshu Sharma(CS-3rd) & Himanshu Shukla(CS-3rd)
-     
+
+      <div class="us">
+        <div class="ushead">Design By</div>
+          <div class="usboth">
+            <div class="us1">
+              <div class="us1name">Himanshun Sharma(CSE 3rd) </div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='https://www.linkedin.com/in/himanshu200599/' target="_blank">
+                <i class="fa fa-linkedin" id="fb"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='https://www.github.com/himanshush200599/' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+            <div class="us2">
+              <div class="us1name">Himanshun Shukla(CSE 3rd)</div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='#' target="_blank">
+                <i class="fa fa-linkedin" id="fb"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='#' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+          </div>
+      </div>
+      <div class="mem">
+        <div class="other">Other team member - {Mayank and Manishka}</div>
+        </div>
   </div>
 
 </footer>
 
+<script>
+$(document).ready(function () {
+  $('nav a').click(function(e) {
+
+      $('nav  a').removeClass('active');
+
+      var $parent = $(this);
+      $parent.addClass('active');
+      $parent.scrollIntoView({
+  behavior: 'smooth'
+});
+
+  });
+});
+</script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+document.getElementById("navbar1").style.top = "0";
+document.getElementById("navbar1").style.zIndex = "999";
+
+} else {
+document.getElementById("navbar1").style.top = "-50px";
+}
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
