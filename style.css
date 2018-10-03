@@ -7,6 +7,7 @@
 
 }
 
+
  .new{
   font-family: sans-serif;
   list-style-type: none;
@@ -17,6 +18,9 @@
   margin-right: 0.75ex; /* set to desired spacing */
 }
 #start
+
+.social
+
 {
   font-family: Comic Sans MS;
   font-size: 24px;
@@ -24,7 +28,6 @@
   padding-top: 0.1px;
   text-shadow: 1.3px 1.3px 1.3px #ff3333;
 }
-
 
 .carousel-caption
 {
@@ -120,15 +123,21 @@ color:#ffffff !important;
 }
 .about
 {
+
   color: #d9d9d9;
 font-size: 20px;
+
+  color: #ebebe0;
+
 }
 
 #abtu
 {
  margin: 0 auto;
 
+
   color:#00091a;
+  color:black;
 
 text-shadow: 2px 2px 2px 2px white;
 }
@@ -137,6 +146,7 @@ text-shadow: 2px 2px 2px 2px white;
 }
 #abouts
 {
+
   background-image: url("grunge-dark-green-desktop-pc-and-mac1.jpg");
   background-size: cover;
   color:#d9d9d9;
@@ -145,6 +155,18 @@ text-shadow: 2px 2px 2px 2px white;
   font-size: 18px;
   margin-bottom: 0;
   height: 850px;
+
+  background-image: url("back.jpg");
+  background-size: cover;
+  color: white;
+  font-family:Courier New Header;
+  font-weight: bolder;
+  font-size: 18px;
+margin-bottom: 0;
+  text-shadow: 0.5px 0.5px 0.5px #009900;
+
+height: 750px;
+
 }
 #listofgame
 {
@@ -158,7 +180,7 @@ text-shadow: 2px 2px 2px 2px white;
   padding-left: 4px;
   padding-right: 4px;
   width: 200px;
-  height: auto;
+height: auto;
   font-family: tahoma;
   position: relative;
   font-weight: bolder;
@@ -179,8 +201,13 @@ ul{
   display: flex;
   justify-content: center;
 align-items: center;
+
   background-color: #0d001a;
   height:45px;
+
+  background-color: #5f5f5f;
+  height:130px;
+
 }
 .ushead{
   text-align: center;
@@ -193,12 +220,20 @@ align-items: center;
   font-weight: bolder;
   color:#2B2B52;
 
+
 }
 .us2name{
   font-weight: bolder;
   color:#2B2B52;
 
 }
+}
+.us2name{
+  font-weight: bolder;
+  color:#2B2B52;
+
+}
+
 
 .foot
 {
@@ -221,9 +256,13 @@ box-shadow: 2px 2px 2px 2px black;
 }
 #map
 {
+
   position: relative;
   width: 90%;
   height: 386px;
+
+  width: 90%;
+  height: 406px;
   margin: 0 auto;
 
 }
@@ -301,6 +340,11 @@ font-family:"Segoe UI",Arial,sans-serif;
   font-weight: bolder;
   font-size: 1.7rem;
   text-shadow: 1px 2px 3px black;
+  color: white;
+  font-size: 24px;
+  font-family: Times New Roman;
+  text-shadow: 1px 2px 4px black;
+
 }
 .add{
   font-size: 18px;
@@ -362,7 +406,10 @@ label{
 
   }
 .footer{
+
   height:175px;
+
+  height:220px;
   text-align: center;
 }
 .outdoor{
@@ -385,8 +432,10 @@ label{
 
 #abouts{
   z-index: 999;
+
   height:auto;
-  padding-bottom: 20px;
+
+  height:800px;
 }
 #abouts a button{
   margin:0;
@@ -397,6 +446,7 @@ align-items: baseline;
 justify-content: center;
 margin-top: 10px;
 }
+
 .contact{
   height: 50vh;
 }
