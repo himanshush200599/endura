@@ -7,21 +7,40 @@
 
 }
 
+
+ .new{
+  font-family: sans-serif;
+  list-style-type: none;
+  display: flex;
+}
+
+ .new> div:first-child {
+  margin-right: 0.75ex; /* set to desired spacing */
+}
+#start
+
 .social
+
 {
-  filter: grayscale(100%);
+  font-family: Comic Sans MS;
+  font-size: 24px;
+  color: #d8e5f3;
+  padding-top: 0.1px;
+  text-shadow: 1.3px 1.3px 1.3px #ff3333;
 }
 
 .carousel-caption
 {
-  left: 960px;
-  bottom: 0;
-  background-color: #bfbfbf;
+  left: 1000px;
+  bottom: -10px;
+  background-color: #b3cbcb;
   padding: 1px;
   width: 250px;
   margin-bottom: 40px;
   color: #001a33;
-  box-shadow: 2px 2px 2px 2px black;
+-webkit-box-shadow: -0.5px 0.5px 3px 6px rgba(0,0,0,0.75);
+ -moz-box-shadow: -0.5px 0.5px 3px 6px rgba(0,0,0,0.75);
+ box-shadow: -0.5px 0.5px 3px 6px rgba(0,0,0,0.75);
 }
 #ldin:hover{
   color: #0077b5;
@@ -33,7 +52,7 @@
   justify-content: center;
 }
 #navbarNavAltMarkup{
-  color: black;
+  color: black ;
 }
 #a{
 color: #f1f1f1;
@@ -96,19 +115,28 @@ color:#ffffff !important;
   font-size: 2px;
 }
 #logo{
-  width:90px;
+  width:75px;
   height:50px;
   margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px white;
+  border-radius: 60%;
 }
 .about
 {
+
+  color: #d9d9d9;
+font-size: 20px;
+
   color: #ebebe0;
+
 }
 
 #abtu
 {
  margin: 0 auto;
 
+
+  color:#00091a;
   color:black;
 
 text-shadow: 2px 2px 2px 2px white;
@@ -118,6 +146,16 @@ text-shadow: 2px 2px 2px 2px white;
 }
 #abouts
 {
+
+  background-image: url("grunge-dark-green-desktop-pc-and-mac1.jpg");
+  background-size: cover;
+  color:#d9d9d9;
+  font-family:Courier New Header;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 0;
+  height: 850px;
+
   background-image: url("back.jpg");
   background-size: cover;
   color: white;
@@ -128,12 +166,12 @@ margin-bottom: 0;
   text-shadow: 0.5px 0.5px 0.5px #009900;
 
 height: 750px;
+
 }
 #listofgame
 {
-  color:#1a1a1a;
-  text-shadow: 0.5px 0.5px 0.5px red;
-  font-size: 17px;
+  color:black;
+  font-size: 20px;
 
 }
 #aboutusbox
@@ -142,7 +180,7 @@ height: 750px;
   padding-left: 4px;
   padding-right: 4px;
   width: 200px;
-
+height: auto;
   font-family: tahoma;
   position: relative;
   font-weight: bolder;
@@ -163,8 +201,13 @@ ul{
   display: flex;
   justify-content: center;
 align-items: center;
+
+  background-color: #0d001a;
+  height:45px;
+
   background-color: #5f5f5f;
   height:130px;
+
 }
 .ushead{
   text-align: center;
@@ -177,12 +220,20 @@ align-items: center;
   font-weight: bolder;
   color:#2B2B52;
 
+
 }
 .us2name{
   font-weight: bolder;
   color:#2B2B52;
 
 }
+}
+.us2name{
+  font-weight: bolder;
+  color:#2B2B52;
+
+}
+
 
 .foot
 {
@@ -205,6 +256,11 @@ box-shadow: 2px 2px 2px 2px black;
 }
 #map
 {
+
+  position: relative;
+  width: 90%;
+  height: 386px;
+
   width: 90%;
   height: 406px;
   margin: 0 auto;
@@ -224,6 +280,12 @@ box-shadow: 2px 2px 2px 2px black;
     background-image: url('123.JPG');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+  .contact{
+    height:80vh;
   }
 #mail
 {
@@ -244,7 +306,7 @@ font-family:"Segoe UI",Arial,sans-serif;
 
 }
 .bgcolor{
-    background-color:#5f5f5f;
+    background-color:#0d001a;
     color: #f1f1f1;
 }
 .navbartop{
@@ -266,6 +328,18 @@ font-family:"Segoe UI",Arial,sans-serif;
 .title{
   font-weight: bolder;
   padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: Times New Roman;
+  
+
+}
+.meerut{
+  padding-top: 380px;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-shadow: 1px 2px 3px black;
   color: white;
   font-size: 24px;
   font-family: Times New Roman;
@@ -278,9 +352,9 @@ font-family:"Segoe UI",Arial,sans-serif;
 .outdoor .btn,
 .indoor .btn{
   margin:25px;
-  border-radius: 0;
+  border-radius: 5px;
   width:235px;
-  border-radius: 0;
+  
   border: none;
   outline: none;
   font-family: Times New Roman;
@@ -295,7 +369,7 @@ box-shadow: 2px 2px 2px 2px black;
   transition: 0.2s ease;
 }
 .outdoor{
-  background: url("./outdoor.jpg");
+  background: url("./grunge-dark-green-desktop-pc-and-mac1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,10 +377,11 @@ box-shadow: 2px 2px 2px 2px black;
   height:350px;
 }
 .indoor{
-  background: url("./indoor.jpg");
+  background: url("./grunge-dark-green-desktop-pc-and-mac1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
+  width: 100%;
 }
 section img{
   width:260px;
@@ -331,6 +406,9 @@ label{
 
   }
 .footer{
+
+  height:175px;
+
   height:220px;
   text-align: center;
 }
@@ -354,6 +432,9 @@ label{
 
 #abouts{
   z-index: 999;
+
+  height:auto;
+
   height:800px;
 }
 #abouts a button{
@@ -365,4 +446,54 @@ align-items: baseline;
 justify-content: center;
 margin-top: 10px;
 }
+
+.contact{
+  height: 50vh;
+}
+}
+#ldin
+{
+  font-size: 25px;
+  padding:8px 6px 8px 6px;
+  padding-top: 10px;
+  color:  #0077B5;
+}#ldin:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.2s ease;
+}
+#fb
+{
+font-size: 25px;
+  padding:8px 6px 8px 6px;
+  padding-top: 10px;
+  color: #3b5998;
+}
+#fb:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.2s ease;
+}
+#gb
+{
+font-size: 25px;
+  padding:8px 6px 8px 6px;
+  padding-top: 10px;
+  color: #cc0000;
+}
+#gb:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.2s ease;
+}
+#ins
+{
+  font-size: 25px;
+  padding:8px 6px 8px 6px;
+  padding-top: 10px;
+  color:#c32aa3 ;
+}
+#ins:hover{
+  transform: scale(1.4,1.4);
+  transition: 0.4s ease;
+}#ldin:hover{
+  color: #0077b5;
+  size: 200px;
 }
