@@ -9,21 +9,28 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title >Endura 2K18</title>
   <style>
   /* Make the image fully responsive */
   .carousel-inner img {
       width: 100%;
-      height: 545px;
+      height: 100vh;
   }
+  #nav-toggle-button{
+    background-color:white;
+    margin-right: 35px;
+    padding:2px;
+}
   </style>
-</head>
-<body>
-    <div class="navbartop" >
-      <nav class="navbar navbar-expand-lg navbar-light bgcolor " >
 
-        <a class="navbar-brand" href="#"><img src="./logo.png" alt="logo of endura" id="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="navbartop" id="navbar1">
+      <nav class="navbar navbar-expand-lg navbar-light bgcolor fixed-top " >
+
+        <b id="start">Endura 2K18  </b>
+        <button id="nav-toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -32,6 +39,7 @@
             <a class="nav-item nav-link"  href="#events" id="b"><span class="fa fa-calendar" ></span> Rule Book</a>
             <a class="nav-item nav-link" href="#abouts" id="c"><span class="fa fa-info fa-lg"></span> About Us</a>
             <a class="nav-item nav-link" href="#contact" id="d"><span class="fa fa-address-card fa-lg"></span> Contact Us</a>
+            <img src="./logo-2.jpg" style="height: 42px;width: 40px;box-shadow: 1px px 1px white;text-shadow: 2px 2px 2px white;padding-top: 12px;padding-left: 5px;">
           </div>
         </div>
 
@@ -50,80 +58,141 @@
                  <li data-target="#demo" data-slide-to="7"></li>
       </ul>
       <div class="carousel-inner">
+        
         <div class="carousel-item active">
-          <img src="tech.jpg" alt="Los Angeles" class="img-responsive">
-          
+          <img src="enduraposter.jpg" alt="Los Angeles" class="img-responsive">
+         
         </div>
+        <div class="carousel-item" style="padding: 0px;">
+          <img src="IMG_0414.JPG" alt="basketball" class="img-responsive" >
+          <div class="carousel-caption" style="height: 130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0 0 0 0;"><h4>S N O O K E R</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300;padding: 0 0 0 0"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b style="text-shadow: 0.05px 0.05px 0.05px white;">Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b style="text-shadow: 0.05px 0.05px 0.05px white;">Love Gupta</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+       
+        
+
         <div class="carousel-item">
-          <img src="basketball.jpg" alt="Chicago" class="img-responsive" >
-          <div class="carousel-caption">
-         <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
+          <img src="IMG_0431.jpg" alt="New York" class="img-responsive">
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0 0 0 0"><h4>C A R R O M</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300;padding: 0 0 0 0"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="football.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-          <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
+          <img src="IMG_0420.jpg" alt="New York" class="img-responsive">
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>F O O S B A L L</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
           </div>
-        </div> 
+        </div>
         <div class="carousel-item">
+          <img src="IMG_0424.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>T A B L E-T E N N I S</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="IMG_0429.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>C H E S S</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+         <div class="carousel-item">
           <img src="volleyball.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-                <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>V O L L E Y B A L L</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
           </div>
-        </div> 
+        </div>
         <div class="carousel-item">
+          <img src="IMG_0502.JPG" alt="basketball" class="img-responsive" >
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>F O O T B A L L</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="khokho.JPG" alt="basketball" class="img-responsive" >
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>K H O-K H O</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
+          </div>        </div>
+         <div class="carousel-item">
           <img src="badminton.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-               <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>B A D M I N T O N</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
           </div>
         </div>
          <div class="carousel-item">
-          <img src="snooker.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-               <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
-          </div>
-        </div>
-         <div class="carousel-item">
-          <img src="tech.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-               <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
-          </div>
-        </div>
-         <div class="carousel-item">
-          <img src="tech.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-                <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
-          </div>
-        </div>
-         <div class="carousel-item">
-          <img src="tech.jpg" alt="New York" class="img-responsive">
-          <div class="carousel-caption">
-                <span><h4>Event Coordinators</h4></span>
-         <span><b>Atul yadav</b></span>
-         <br>
-         <span><b>mahesh prakash</b></span>
+          <img src="athletics.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>A T H L E T I C S</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
+
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Love Gupta</b></h5></div>
+</ul>
+      </div>
           </div>
         </div>
       </div>
@@ -136,27 +205,46 @@
     </div>
 
 </div>
-<div>
+
+<div >
   <div id="events">
     <div class="outdoor">
-    <div class="heading animated bounce">
-      <h1 class="title ">OUTDOOR GAMES</h1>
+    <div  class="heading animated bounce" style="background-color: black;padding-top: 0.1px;padding-bottom: 0.1px;">
+      <h1 class="title " style="color: white;text-shadow: 1px 1px 1px white;">OUTDOOR GAMES</h1>
     </div>
     <div class="d-flex flex-column align-items-center flex-lg-row justify-content-around same flex-wrap" >
 
     <div class="p-1">
-    <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Cricket</button>
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#1">Athletics</button>
+    <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered" role="document">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+      <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
     <div class="modal-body">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sapiente suscipit nemo voluptatibus modi, adipisci, quasi recusandae eum accusamus aliquam.
+      <h5>RACE: 100m, 200m, 400m, 800m</h5>
+      <br>
+      <ul>
+        <li>In all races up to and including 400m, each athlete shall have a separate lane, with a width of 1.22m
+± 0.01m, including the lane line on the right, marked by white lines 50mm in width. All lanes shall
+be of the same nominal width.</li>
+        <li>The start of a race shall be denoted by a white line 50mm wide. In all races not run in lanes, the start
+line shall be curved, so that all the athletes start the same distance from the finish.</li>
+</ul>
+        <h5>RELAY RACES 4X100m and 4X400m</h5>
+        <ul>
+            <li>Each takeover zone shall be 20m long of which the scratch line is the centre. The zones shall start
+and finish at the edges of the zone lines nearest the start line in the running direction.</li>
+        <li>The relay baton shall be a smooth hollow tube, circular in section, made of wood, metal or any other
+rigid material in one piece, the length of which shall be 0.28m to 0.30m.</li>
+        </ul>
+      <b>
+           Entry fee:- ₹ 50/-
+        </b>
     </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -194,7 +282,7 @@ Doubles
       </ul>
       <b>
       Entry fee:-
-- for singles ₹ 50/-   
+- for singles ₹ 50/-
 - For doubles ₹ 100/-
 </b>
       </div>
@@ -207,18 +295,29 @@ Doubles
   </div>
     </div>
     <div class="p-1 ">
-        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Football</button>
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#3">Football</button>
+        <div class="modal fade" id="3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate tenetur, suscipit sequi illum laborum exercitationem eius possimus illo architecto.
+        <div class="modal-body"> <ul>
+            <li>A match consists of two 30 minutes halves with a 10-minute rest period in between.</li>
+            <li>Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player
+allowed to handle the ball within the 18-yard box) and 03 extra players</li>
+            <li>Each team can name up to 03 substitute players. Substitutions can be made at any time of the match
+with each team being able to make a maximum of 3 substitutions per side.</li>
+            <li>If teams are still level after extra time then a penalty shootout must take place.</li>
+            <li>The whole ball must cross the goal line for it to constitute as a goal.</li>
+            <li>For fouls committed a player could receive either a yellow or red card depending on the severity of
+the foul; this comes down to the referee’s discretion.</li>
+          </ul>
+            <b>
+        Entry fees - ₹ 300/- per team.</b>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -229,18 +328,26 @@ Doubles
     </div>
     </div>
     <div class="p-1">
-        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Basketball</button>
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#4">Kho-Kho</button>
+        <div class="modal fade" id="4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium doloremque minima enim id voluptatibus quia soluta totam eos hic!
+          <ul>
+            <li>Total number of participants is 12 (including 3 Substitutes).</li>
+            <li>Timings: 14 minutes (7 for Chasing and 7 for Running) for each team</li>
+            <li>The organizer can modify the timings as per convenience.</li>
+            <li>Rules of KKFI will be applied.</li>
+          </ul>
+             <b>
+           Entry fee:- ₹ 50/-
+        </b>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -285,14 +392,14 @@ Doubles
   </div>
   </div>
   <div class="indoor">
-  <div class="heading animated rubberBand">
-    <h1 class="title">INDOOR GAMES</h1>
+  <div class="heading animated rubberBand" style="background-color: black;padding-top:0.1px;padding-bottom:0.1px;">
+    <h1 class="title" style="color: white;text-shadow: 1px 1px 1px white;">INDOOR GAMES</h1>
   </div>
 
 <div class="d-flex flex-column align-items-center  flex-lg-row justify-content-around same flex-wrap">
 
   <div class="p-1">
-      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#5">Table Tennis</button>
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#5" style="border-radius: 5px">Table Tennis</button>
       <div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -314,10 +421,10 @@ Students have to bring their college id-card.</li>
          <li>Each match will be knockout.</li>
          <li>Second round will be of 21 points, winners of this round will play semi final.</li>
         <li>Winners of final will be qualified directly for Endura.</li>
-        
+
        </ul>
        <b>Entry fee:-
-- for singles ₹ 50/-                                                                     
+- for singles ₹ 50/-
 - For doubles ₹ 100/-
 
        </b>
@@ -331,18 +438,29 @@ Students have to bring their college id-card.</li>
   </div>
   </div>
   <div class="p-1">
-      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Foosball</button>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#7">Foosball</button>
+      <div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita placeat vel numquam qui, odit molestias saepe ducimus illum perferendis.
+        <ul>
+          <li>Flip A Coin - A coin flip decides who serves the foosball to start the foosball game. After the first goal is scored, the rule is that the team who was last scored on gets to serve the next ball.</li>
+          <li>No Spinning - A spin is a rule for when the rod completes a 360 degree rotation without touching the ball. This is deemed an illegal move in the rules of foosball.</li>
+          <li>No Jarring - Jarring is a rule for when a player slams his or her rods against the wall of the foosball table in an attempt to distract or jar the foosball loose from the other player's possession.</li>
+          <li>Dead Balls - If a foosball stops in the middle of two opposing team rods, the ball must be picked up and reserved.</li>
+          <li>Out of Play - If a ball comes off the table area or hits a top rail and comes back into the table area, the ball is ruled out of play and must be reserved by the team that was last scored on. 
+</li>
+
+        </ul>
+        <b>
+           Entry fee:- ₹ 50/-
+        </b>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -374,9 +492,43 @@ Students have to bring their college id-card.</li>
           <li>Game will be held on 3rd feb.</li>
           <li>Certificate will be provided to top 16.</li>
           <li>Prize will be provided to the winners accordingly.</li>
+        </ul><b>
+           Entry fee:- ₹ 50/-
+        </b>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#9">Snooker</button>
+      <div class="modal fade" id="9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+                <ul>
+          <li>Players take it in turns to break (start the frame) with a coin toss deciding who starts the first frame. The break is made with the cue-ball in the D and a red must be struck.</li>
+           <li>
+If both players agree a frame can be restarted, if, for example, both players agree the balls are so placed that the frame could lead to a stalemate.</li>
+            <li>
+A push shot, which is a foul, is when the tip of the cue remains in contact with the cue-ball as it in turn touches the target ball. The cue ball must only be played with one clean strike of the cue.</li>
+             <li>All balls must be stationary before the next shot is played.</li>
+              <li>The player must have at least some part of one foot on the ground whilst playing a shot.</li>
+               <li>Potting the white is a foul, as is a jump shot, where one ball leaves the table and clears another ball.</li>
         </ul>
         <b>
-           Entry fee:- ₹ 50/-
+           Entry fee:- ₹ 100/-
         </b>
       </div>
       <div class="modal-footer">
@@ -388,40 +540,30 @@ Students have to bring their college id-card.</li>
   </div>
   </div>
   <div class="p-1">
-      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Snooker</button>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#10">Carrom</button>
+      <div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <div class="modal-body">    <ul>
+        <li>For the very first turn, the player is allowed three attempts to "break" i.e. disturb the central group of counters.</li>
+        <li>It doesn't matter which piece the striker hits first and it doesn't matter if the striker hits no pieces.</li>
+        <li>If a the striker pockets the Queen and/or one or more pieces of her own colour, the player retrieves the striker and takes another strike.</li>
+        <li>If the player pockets no pieces or commits a foul, the turn finishes.</li>
+        <li>At the end of the game the winner scores 1 point for each opponent's piece left on the board.</li>
+        <li>If the winner has less than 24 points and the winner also covered the Queen, a bonus 5 points are scored.
+If the winner has 24 or more points, then no points are scored for covering the Queen.
 
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  <div class="p-1">
-      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#exampleModalCenter">Carrom</button>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ad vel velit similique, tempora consectetur, nemo. Unde voluptatem reprehenderit quisquam.
+</li>
+      </ul>
+      <b>
+           Entry fee:- ₹ 50/-
+        </b>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -438,29 +580,34 @@ Students have to bring their college id-card.</li>
 </div>
 <!-- About us -->
 <!-- Section: Team v.1 -->
-<section class="team-section text-center my-5" id="abouts">
-<div id="abt">
+<section class="team-section text-center " id="abouts">
+<div id="abt" >
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-5" id="abtu">About Us</h2>
+  <div style="background-color: black;padding-top: 16px;padding-bottom: 16px;margin-bottom:  10px;">
+  <h2 class="h1-responsive font-weight-bold" id="abtu" style="color: white;text-shadow: 1px 1px 1px 1px white;">About Us</h2>
+</div>
   <!-- Section description -->
- 
+
 
   <!-- Grid row -->
-  <div class="row">
+  <div class="container">
+  <div class="row" >
 
     <!-- Grid column -->
-    <div class="col-lg-6 col-md-6 mb-lg-0 mb-5">
+    <div >
       <p class="about">The Pre-Endura 2k18 is going to be held on 6-7th oct-2018 in the college premises. Pre-Endura is a intra college sports fest of miet. It is a great platform to showcase your talent so as to get chance to represent your college team in Endura which is a inter college sports fest.</p>
       Following are the games which will be played in Pre-Endura:-
       <ul id="listofgame" type="none">
-        <li>Basketball</li>
+        <li>Athletics</li>
         <li>Volleyball</li>
         <li>Football</li>
+        <li>Kho-Kho</li>
         <li>Badminton</li>
         <li>Snooker</li>
         <li>Table Tennis</li>
         <li>Chess</li>
         <li>Carrom</li>
+        <li>Foosball</li>
       </ul>
       All the students of college are requested to grace the occasion.
       <div id="aboutusbox">REGISTRATION VENUE :-SPORTS CLUB, MIET
@@ -471,17 +618,18 @@ TIMING :- 10:00 AM ONWARDS
 </div>
       <a href="https://goo.gl/forms/BETRriG84ONht8Wc2" target="_blank" type="submit" ><button class="btn btn-secondary btn-lg"   id="reg">Register Now</button></a>
   </div>
-  
+</div>
   </div>
   <!-- Grid row -->
 </div>
 </section>
+
 <!-- Section: Team v.1 -->
 <section id="contact">
-  <div class="row">
-  <div class="col-lg-6">
+  <div class="row imgc">
+  <div class="col-lg-12">
     <div class="heading">
-      <h1 class="title"><b>MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</b>
+      <h1 class="title meerut"><b>MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</b>
       <div class="details">
         <div class="address">
           <p class="add">N.H. 58, Delhi-Roorkee Highway, Baghpat Road Bypass Crossing Meerut - 250005. UP (India)</p>
@@ -499,7 +647,7 @@ TIMING :- 10:00 AM ONWARDS
         <div class="social">
           <ul class="list-unstyled mb-0">
             <a  class="p-2 fa-lg link-ic" href="https://www.linkedin.com/school/mietgroup/" target="_blank">
-              <i class="fa fa-linkedin " > </i>
+              <i class="fa fa-linkedin " id="ldin"> </i>
             </a>            
             <a class="p-2 fa-lg fb-ic" href='https://www.facebook.com/MIETGROUP/' target="_blank">
               <i class="fa fa-facebook" id="fb"> </i>
@@ -516,21 +664,97 @@ TIMING :- 10:00 AM ONWARDS
     </div>
 
   </div>
-  <div class="col-lg-6" id="map">
-    <div style="width: 100%"><iframe width="100%" height="430" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+  <div class="col-lg-12" id="map">
+    <div style="width: 100%"><iframe width="100%" height="386" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
   </div>
 </div>
 </section>
 
 <footer class="footer">
   <div class="foot">
-  
-        Designed by : Himanshu Sharma(CS-3rd) & Himanshu Shukla(CS-3rd)
-     
-  </div>
+        <div class="ushead">Design By</div>
+          <div class=" row container">
+            <div class="col-md-6 col-12 us1">
+              <div class="us1name">Himanshun Sharma(CSE 3rd) </div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='https://www.linkedin.com/in/himanshu200599/' target="_blank">
+                <i class="fa fa-linkedin" id="fb"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='https://www.github.com/himanshush200599/' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
 
+          </span>
+        </div>
+            </div>
+            <div class="col-12 col-md-6 us2">
+              <div class="us1name">Himanshun Shukla(CSE 3rd)</div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='#' target="_blank">
+                <i class="fa fa-linkedin" id="fb"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='#' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+          </div>
+
+      
+</div>
 </footer>
 
+
+
+<script>
+$(document).ready(function () {
+  $('nav a').click(function(e) {
+
+      $('nav  a').removeClass('active');
+
+      var $parent = $(this);
+      $parent.addClass('active');
+      $parent.scrollIntoView({
+  behavior: 'smooth'
+});
+
+  });
+});
+</script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+document.getElementById("navbar1").style.top = "0";
+document.getElementById("navbar1").style.zIndex = "999";
+
+} else {
+document.getElementById("navbar1").style.top = "-50px";
+}
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
