@@ -140,7 +140,11 @@ text-shadow: 2px 2px 2px 2px white;
 }
 #abouts
 {
-  background-image: url("grunge-dark-green-desktop-pc-and-mac1.jpg");
+  background: rgb(59,120,51);
+background: -moz-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: -webkit-linear-gradient(rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: linear-gradient(rgba(59,120,51,1) 5%, rgba(15,15,15,0.6362920168067228) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b7833",endColorstr="#0f0f0f",GradientType=1);
   background-size: cover;
   color:#d9d9d9;
   font-family:Courier New Header;
@@ -151,8 +155,9 @@ text-shadow: 2px 2px 2px 2px white;
 }
 #listofgame
 {
-  color:black;
-  font-size: 20px;
+  color:white;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px black;
 
 }
 #aboutusbox
@@ -167,7 +172,7 @@ text-shadow: 2px 2px 2px 2px white;
   font-weight: bolder;
   box-shadow: 1px 1px 1px 1px black;
   margin:10px auto;
-  color: black;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 ul{
@@ -328,7 +333,12 @@ box-shadow: 2px 2px 2px 2px black;
   transition: 0.2s ease;
 }
 .outdoor{
-  background: url("./grunge-dark-green-desktop-pc-and-mac1.jpg");
+  background: rgb(59,120,51);
+background: -moz-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: -webkit-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: linear-gradient( rgba(59,120,51,1) 5%, rgba(15,15,15,0.6362920168067228) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b7833",endColorstr="#0f0f0f",GradientType=1);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -336,8 +346,12 @@ box-shadow: 2px 2px 2px 2px black;
   height:350px;
 }
 .indoor{
-  background: url("./grunge-dark-green-desktop-pc-and-mac1.jpg");
-  background-repeat: no-repeat;
+background: rgb(59,120,51);
+background: -moz-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: -webkit-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: linear-gradient(0deg, rgba(59,120,51,1) 5%, rgba(15,15,15,0.6362920168067228) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b7833",endColorstr="#0f0f0f",GradientType=1);
+  background-size: cover;  background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
   width: 100%;
@@ -448,5 +462,5 @@ font-size: 25px;
   transition: 0.4s ease;
 }#ldin:hover{
   color: #0077b5;
-  size:200px;
+  size: 200px;
 }
