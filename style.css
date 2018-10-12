@@ -6,8 +6,10 @@
 
 
 }
-
-
+.us1name
+{
+  color: black;
+}
  .new{
   font-family: sans-serif;
   list-style-type: none;
@@ -18,9 +20,6 @@
   margin-right: 0.75ex; /* set to desired spacing */
 }
 #start
-
-.social
-
 {
   font-family: Comic Sans MS;
   font-size: 24px;
@@ -28,6 +27,7 @@
   padding-top: 0.1px;
   text-shadow: 1.3px 1.3px 1.3px #ff3333;
 }
+
 
 .carousel-caption
 {
@@ -123,21 +123,15 @@ color:#ffffff !important;
 }
 .about
 {
-
   color: #d9d9d9;
 font-size: 20px;
-
-  color: #ebebe0;
-
 }
 
 #abtu
 {
  margin: 0 auto;
 
-
   color:#00091a;
-  color:black;
 
 text-shadow: 2px 2px 2px 2px white;
 }
@@ -146,8 +140,11 @@ text-shadow: 2px 2px 2px 2px white;
 }
 #abouts
 {
-
-  background-image: url("grunge-dark-green-desktop-pc-and-mac1.jpg");
+  background: rgb(59,120,51);
+background: -moz-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: -webkit-linear-gradient(rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: linear-gradient(rgba(59,120,51,1) 5%, rgba(15,15,15,0.6362920168067228) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b7833",endColorstr="#0f0f0f",GradientType=1);
   background-size: cover;
   color:#d9d9d9;
   font-family:Courier New Header;
@@ -155,23 +152,12 @@ text-shadow: 2px 2px 2px 2px white;
   font-size: 18px;
   margin-bottom: 0;
   height: 850px;
-
-  background-image: url("back.jpg");
-  background-size: cover;
-  color: white;
-  font-family:Courier New Header;
-  font-weight: bolder;
-  font-size: 18px;
-margin-bottom: 0;
-  text-shadow: 0.5px 0.5px 0.5px #009900;
-
-height: 750px;
-
 }
 #listofgame
 {
-  color:black;
-  font-size: 20px;
+  color:white;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px black;
 
 }
 #aboutusbox
@@ -180,13 +166,13 @@ height: 750px;
   padding-left: 4px;
   padding-right: 4px;
   width: 200px;
-height: auto;
+  height: auto;
   font-family: tahoma;
   position: relative;
   font-weight: bolder;
   box-shadow: 1px 1px 1px 1px black;
   margin:10px auto;
-  color: black;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 ul{
@@ -201,13 +187,8 @@ ul{
   display: flex;
   justify-content: center;
 align-items: center;
-
   background-color: #0d001a;
-  height:45px;
-
-  background-color: #5f5f5f;
   height:130px;
-
 }
 .ushead{
   text-align: center;
@@ -220,20 +201,12 @@ align-items: center;
   font-weight: bolder;
   color:#2B2B52;
 
-
 }
 .us2name{
   font-weight: bolder;
   color:#2B2B52;
 
 }
-}
-.us2name{
-  font-weight: bolder;
-  color:#2B2B52;
-
-}
-
 
 .foot
 {
@@ -256,13 +229,9 @@ box-shadow: 2px 2px 2px 2px black;
 }
 #map
 {
-
   position: relative;
   width: 90%;
   height: 386px;
-
-  width: 90%;
-  height: 406px;
   margin: 0 auto;
 
 }
@@ -340,11 +309,6 @@ font-family:"Segoe UI",Arial,sans-serif;
   font-weight: bolder;
   font-size: 1.7rem;
   text-shadow: 1px 2px 3px black;
-  color: white;
-  font-size: 24px;
-  font-family: Times New Roman;
-  text-shadow: 1px 2px 4px black;
-
 }
 .add{
   font-size: 18px;
@@ -369,7 +333,12 @@ box-shadow: 2px 2px 2px 2px black;
   transition: 0.2s ease;
 }
 .outdoor{
-  background: url("./grunge-dark-green-desktop-pc-and-mac1.jpg");
+  background: rgb(59,120,51);
+background: -moz-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: -webkit-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: linear-gradient( rgba(59,120,51,1) 5%, rgba(15,15,15,0.6362920168067228) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b7833",endColorstr="#0f0f0f",GradientType=1);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -377,8 +346,12 @@ box-shadow: 2px 2px 2px 2px black;
   height:350px;
 }
 .indoor{
-  background: url("./grunge-dark-green-desktop-pc-and-mac1.jpg");
-  background-repeat: no-repeat;
+background: rgb(59,120,51);
+background: -moz-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: -webkit-linear-gradient(0deg, rgba(59,120,51,1) 4%, rgba(15,15,15,0.6362920168067228) 96%);
+background: linear-gradient(0deg, rgba(59,120,51,1) 5%, rgba(15,15,15,0.6362920168067228) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b7833",endColorstr="#0f0f0f",GradientType=1);
+  background-size: cover;  background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
   width: 100%;
@@ -406,10 +379,7 @@ label{
 
   }
 .footer{
-
   height:175px;
-
-  height:220px;
   text-align: center;
 }
 .outdoor{
@@ -432,10 +402,8 @@ label{
 
 #abouts{
   z-index: 999;
-
   height:auto;
-
-  height:800px;
+  padding-bottom: 20px;
 }
 #abouts a button{
   margin:0;
@@ -446,7 +414,6 @@ align-items: baseline;
 justify-content: center;
 margin-top: 10px;
 }
-
 .contact{
   height: 50vh;
 }
