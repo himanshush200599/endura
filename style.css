@@ -1,614 +1,931 @@
-    *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
-
-#abouts{
-  margin: 0 auto;
-  margin-left: -100px;
-}
-.regbutton{
-  margin-left:0%;
-}
-.reginfo{
-  margin:0 auto;
-  margin-left:19%;
-
-}
-.us1name
-{
-  color: black;
-}
- .new{
-  font-family: sans-serif;
-  list-style-type: none;
-  display: flex;
-}
-
- .new> div:first-child {
-  margin-right: 0.75ex; /* set to desired spacing */
-}
-#start
-{
-  font-family: Comic Sans MS;
-  font-size: 24px;
-  color: #d8e5f3;
-  padding-top: 0.1px;
-  text-shadow: 1.3px 1.3px 1.3px #ff3333;
-}
-
-
-.carousel-caption
-{
-  left: 1000px;
-  bottom: -10px;
-  background-color: #b3cbcb;
-  padding: 1px;
-  width: 250px;
-  margin-bottom: 40px;
-  color: #001a33;
--webkit-box-shadow: -0.5px 0.5px 3px 6px rgba(0,0,0,0.75);
- -moz-box-shadow: -0.5px 0.5px 3px 6px rgba(0,0,0,0.75);
- box-shadow: -0.5px 0.5px 3px 6px rgba(0,0,0,0.75);
-}
-#ldin:hover{
-  color: #0077b5;
-  size: 200px;
-}
-
-.mem{
-  display: flex;
-  justify-content: center;
-}
-#navbarNavAltMarkup{
-  color: black ;
-}
-#a{
-color: #f1f1f1;
-text-shadow: 1px 1px 1px white;
-padding: 15px 15px !important;
-
-}
-#b{
-color: #f1f1f1;
-text-shadow: 1px 1px 1px white;
-padding: 15px 15px !important;
-
-}
-#c{
-color: #f1f1f1;
-text-shadow: 1px 1px 1px white;
-padding: 15px 15px !important;
-
-}
-#d{
-  color: #f1f1f1;
-  text-shadow: 1px 1px 1px white;
-  padding: 15px 15px !important;
-
-}
-.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#a:hover,#a:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}
-
-#b:hover,#b:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}#c.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#c:hover,#c:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}#d.active{
-  background-color:#4CAF50;
-color:#ffffff;
-
-}
-#d:hover,#d:focus{
-background-color:#000000 !important;
-color:#ffffff !important;
-}
-.text
-{
-  font-family: tahoma;
-  font-weight: bolder;
-  font-size: 2px;
-}
-#logo{
-  width:75px;
-  height:50px;
-  margin-left: 10px;
-  box-shadow: 2px 2px 2px 2px white;
-  border-radius: 60%;
-}
-.about
-{
-  color: #d9d9d9;
-font-size: 20px;
-}
-
-#abtu
-{
- margin: 0 auto;
-
-  color:#00091a;
-
-text-shadow: 2px 2px 2px 2px white;
-}
-#aboutcenter{
-  margin:0 auto;
-}
-#abouts
-{
-background: rgb(8,62,3);
-background: -moz-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 0%, rgba(30,51,37,0.34217436974789917) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: -webkit-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 0%, rgba(30,51,37,0.34217436974789917) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 0%, rgba(30,51,37,0.34217436974789917) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endColorstr="#12260f",GradientType=1); font-size: 18px;
-  margin-bottom: 0;
-  height: 875px;
-}
-#listofgame
-{
-  color:white;
-  font-size: 18px;
-  text-shadow: 1px 1px 1px black;
-  margin-right: 5px;
-}
-#aboutusbox
-{
-  border: 2px solid black;
-  padding-left: 4px;
-  padding-right: 4px;
-  width: 200px;
-  height: auto;
-  font-family: tahoma;
-  position: relative;
-  font-weight: bolder;
-  box-shadow: 1px 1px 1px 1px black;
-  margin:10px auto;
-
-  color: white;
-  text-shadow: 1px 1px 1px black;
-
-}
-ul{
-  padding-left: 8px;
-  font-family: tahoma;
-  font-size: 15px;
-  font-weight: bolder;
-  color:#1f2e2e;
-  text-shadow: 1px black;
-}
-.footer{
-  display: flex;
-  justify-content: center;
-align-items: center;
-  background-color: #0d001a;
-  height:auto;
-  margin-bottom: 0;
-}
-.ushead{
-  text-align: center;
-  color: #0A3D62;
-  font-weight: bolder;
-  font-size: 20px;
-}
-
-.us1name{
-  font-weight: bolder;
-  color:#2B2B52;
-
-}
-.us2name{
-  font-weight: bolder;
-  color:#2B2B52;
-
-}
-
-.foot
-{
-  color: #f1f1f1;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-shadow: .5px .5px .5px #2F363F;
-  font-weight: bolder;
-
-}
-#reg{
-  border-radius: 0;
-  border: none;
-  outline: none;
-  font-family: Times New Roman;
-  font-size: 22px;
-background-color: #1f7a1f;
-box-shadow: 2px 2px 2px 2px black;
-
-
-
-}
-#map
-{
-  position: relative;
-  width: 90%;
-  height: 386px;
-  margin: 0 auto;
-
-}
-#reg:hover
-{
-  background-color: #2aa22a;
-  transition: 0.2s ease;
-}
-
-#con
-{
-  font-size: 15px;
-}
- .imgc
-  {
-    background-image: url('123.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="" href="logo.jpg">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title >Zonals 2k18</title>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100vh;
   }
-  .contact{
-    height:80vh;
-  }
-#mail
-{
-  color: #004d4d;
+  #nav-toggle-button{
+    background-color:white;
+    margin-right: 35px;
+    padding:2px;
 }
-body{
-  overflow-x: hidden;
+  </style>
 
-}
-.navbar-brand{
-  font-weight: bolder;
-  font-size: 28px;
-  color:white;
-  font-family: #f1f1f1;
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="navbartop" id="navbar1">
+      <nav class="navbar navbar-expand-lg navbar-light bgcolor fixed-top " >
 
-letter-spacing:1px;
-font-family:"Segoe UI",Arial,sans-serif;
+        <b id="start">Zonals 2018 </b>
+        <button id="nav-toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto fl">
+            <a class="nav-item nav-link active" href="#" id="a"><span class="fa fa-home fa-lg"></span> Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link"  href="#events" id="b"><span class="fa fa-calendar" ></span> Events</a>
+            <a class="nav-item nav-link" href="#abouts" id="c"><span class="fa fa-info fa-lg"></span> Rule Book</a>
+            <a class="nav-item nav-link" href="#contact" id="d"><span class="fa fa-address-card fa-lg"></span> Contact Us</a>
+            <img src="./logo-2.jpg" style="height: 42px;width: 40px;box-shadow: 1px px 1px white;text-shadow: 2px 2px 2px white;padding-top: 12px;padding-left: 5px;">
+          </div>
+        </div>
 
-}
-.bgcolor{
-    background-color:#0d001a;
-    color: #f1f1f1;
-}
-.navbartop{
-  width: 100%;
-  padding: 0px;
-  position:fixed;
-  top: -50px;
-  transition: top 0.3s;
-}
-.poster{
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.heading{
-    margin: 0 auto;
-    text-align: center;
-}
-.title{
-  font-weight: bolder;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: black;
-  font-size: 20px;
-  font-family: Times New Roman;
+      </nav>
+    </div>
+    <div  id ="slider">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+           <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+                 <li data-target="#demo" data-slide-to="5"></li>
+                 <li data-target="#demo" data-slide-to="6"></li>
+                 <li data-target="#demo" data-slide-to="7"></li>
+      </ul>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="enduraposter.jpg" alt="Los Angeles" class="img-responsive">
+
+        </div>
 
 
-}
-.meerut{
-  padding-top: 380px;
-  font-weight: bolder;
-  font-size: 1.7rem;
-  text-shadow: 1px 2px 3px black;
-}
-.add{
-  font-size: 18px;
-}
-.outdoor .btn,
-.indoor .btn{
-  margin:25px;
-  border-radius: 5px;
-  width:235px;
+<div class="carousel-item">
+          <img src="khokho.jpg" alt="basketball" class="img-responsive" >
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>K H O-K H O</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-  border: none;
-  outline: none;
-  font-family: Times New Roman;
-  font-size: 22px;
-background-color: #1f7a1f;
-box-shadow: 2px 2px 2px 2px black;
-}
-.outdoor .btn:hover,
-.indoor .btn:hover
-{
-  background-color: #2aa22a;
-  transition: 0.2s ease;
-}
-.outdoor{
- background: rgb(8,62,3);
-background: -moz-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: -webkit-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endColorstr="#12260f",GradientType=1); background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width:100%;
-  height:auto;
-}
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Preet Panwar</b></h5></div>
+</ul>
+      </div>
+          </div>        </div>
 
+ <div class="carousel-item">
+          <img src="volleyball.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>V O L L E Y B A L L</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-.indoor{
-background: rgb(8,62,3);
-background: -moz-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: -webkit-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endColorstr="#12260f",GradientType=1); background-size: cover;  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  width: 100%;
-}
-section img{
-  width:260px;
-  height:260px;
-}
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Preet Panwar</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Abhishek Kumar</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="IMG_0424.JPG" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>T A B L E-T E N N I S</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-a{
-  text-decoration: none;
-}
-p{
-  color:black;
-}
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Dushyant Singh</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Anurag Kumar</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="IMG_0429.JPG" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>C H E S S</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-label{
-  color:black;
-}
-#abt{
-  margin: 0 auto;
-  margin-left: -50px;
-}
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Sameer Singh</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Himanshu Madhur</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <img src="IMG_0502.JPG" alt="basketball" class="img-responsive" >
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>F O O T B A L L</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-@media (max-width:987px) {
-  .same{
-    display: flex;
-    justify-content: center;
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Abhijeet Masih</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Himanshu Sahani</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+        
+         <div class="carousel-item">
+          <img src="badminton.jpg" alt="New York" class="img-responsive">
+           <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>B A D M I N T O N</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-  }
-  #abouts{
-    display: none;
-  }
-.footer{
-  height:175px;
-  text-align: center;
-}
-.outdoor{
-  margin: 0;
-  height:auto;
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Gautam Mishra</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Avneesh Tyagi</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <img src="athletics.jpg" alt="New York" class="img-responsive">
+          <div class="carousel-caption" style="height:130px;">
+         <span style="color: black;font-size: 15px;font-weight: bolder;font-family: Times New Courier;text-shadow: 1px 1px 1px black;padding: 0px;"><h4>A T H L E T I C S</h4></span>
+         <span style="color: #103300;font-family: Times New Courier;font-weight: bolder;text-shadow: 1px 1px 1px #103300"><h4><b>Student Coordinators :</b></h4></span>
 
-}
-.indoor{
-  margin:0;
-  height:auto;
-}
-.btn{
-  margin:16px;
-}
-.usboth{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
+      <div style="padding: 0px;"><ul>
+  <li class="new"><div>•</div><div><h5><b>Siddhant Srivastava</b></h5></div>
+  <li class="new"><div>•</div><div><h5><b>Himanshu Madhur</b></h5></div>
+</ul>
+      </div>
+          </div>
+        </div>
 
-#abouts{
-  z-index: 999;
-  height:auto;
-  padding-bottom: 20px;
-}
-#abouts a button{
-  margin:0;
-}
-.mem{
-display: flex;
-align-items: baseline;
-justify-content: center;
-margin-top: 10px;
-}
-.contact{
-  height: 50vh;
-}
-}
-#ldin
-{
-  font-size: 25px;
-  padding:8px 6px 8px 6px;
-  padding-top: 10px;
-  color:  #0077B5;
-}#ldin:hover{
-  transform: scale(1.3,1.3);
-  transition: 0.2s ease;
-}
-#fb
-{
-font-size: 25px;
-  padding:8px 6px 8px 6px;
-  padding-top: 10px;
-  color: #3b5998;
-}
-#fb:hover{
-  transform: scale(1.3,1.3);
-  transition: 0.2s ease;
-}
-#gb
-{
-font-size: 25px;
-  padding:8px 6px 8px 6px;
-  padding-top: 10px;
-  color: #cc0000;
-}
-#gb:hover{
-  transform: scale(1.3,1.3);
-  transition: 0.2s ease;
-}
-#ins
-{
-  font-size: 25px;
-  padding:8px 6px 8px 6px;
-  padding-top: 10px;
-  color:#c32aa3 ;
-}
-#ins:hover{
-  transform: scale(1.4,1.4);
-  transition: 0.4s ease;
-}#ldin:hover{
-  color: #0077b5;
-  size: 200px;
-}
-.listofgame{
-width:80%;
-margin:30px auto;
-}
-.listofgame ol {
-list-style-type: none;
-list-style-type: decimal !ie; /*IE 7- hack*/
-margin: 0;
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
 
-padding: 0;
-counter-reset: li-counter;
-}
-.listofgame ol li{
-position: relative;
-margin-bottom: 1.5em;
-padding: 0.5em;
-background-color: #1f7a1f;
-padding-left: 58px;
-}
-.listofgame a{
-text-decoration:none;
-color:black;
-font-size:15px;
-font-family: 'Raleway', sans-serif;
-}
-.listofgame li:hover{
-box-shadow:inset -1em 0 #6CD6CC;
--webkit-transition: box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
-transition: box-shadow 0.5s;
-}
-.listofgame ol li:before {
-position: absolute;
-top: -0.3em;
-left: -0.5em;
-width: 1.8em;
-height: 1.2em;
-font-size: 2em;
-line-height: 1.2;
-font-weight: bold;
-text-align: center;
-color: white;
-background-color: #0d001a;
-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
-z-index: 99;
-overflow: hidden;
-content: counter(li-counter);
-counter-increment: li-counter;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 0 10px;
-}
+</div>
 
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-  margin: 0 -5px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 black; /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  border
-}
-
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-#mob1
-{
-   border-radius: 4px;
-  border: none;
-  outline: none;
-  font-family: Times New Roman;
-  font-size: 22px;
-background-color: #2aa22a;
-box-shadow: 2px 2px 2px 2px black;
-text-align: center;
-position: relative;
-left: 10%;
+<div >
+  <div id="events">
+    <div class="outdoor">
+    <div  class="heading animated bounce" style="background-color: black;padding-top: 0.1px;padding-bottom: 0.1px;">
+      <h1 class="title " style="color: white;text-shadow: 1px 1px 1px white;">TEAM EVENTS</h1>
+    </div>
+    <div class="d-flex flex-column align-items-center flex-lg-row justify-content-around same flex-wrap"  style="padding-top: 50px;padding-bottom: 50px;">
 
 
-}
-#mob2
-{
-   border-radius: 4px;
-  border: none;
-  outline: none;
-  font-family: Times New Roman;
-  font-size: 22px;
-background-color: #2aa22a;
-box-shadow: 2px 2px 2px 2px black;
-}
-#mob1:hover
-{
-  background-color: #2aa22a;
-  transition: 0.2s ease;
+    <div class="p-1 ">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#1">Football</button>
+        <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"> <ul>
+            <li>A match consists of two 30 minutes halves with a 10-minute rest period in between.</li>
+            <li>Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player
+allowed to handle the ball within the 18-yard box) and 03 extra players</li>
+            <li>Each team can name up to 03 substitute players. Substitutions can be made at any time of the match
+with each team being able to make a maximum of 3 substitutions per side.</li>
+            <li>If teams are still level after extra time then a penalty shootout must take place.</li>
+            <li>The whole ball must cross the goal line for it to constitute as a goal.</li>
+            <li>For fouls committed a player could receive either a yellow or red card depending on the severity of
+the foul; this comes down to the referee’s discretion.</li>
+          </ul>
+        </div>
+        
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-}
-#mob2:hover
-{
-  background-color: #2aa22a;
-  transition: 0.2s ease;
+      <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/hGPPMeFrtgkVcrtf1'">Register</button>
 
-}
-#mobile
-{
-background-color: #0d001a;
-border-top:8px solid black;
-border-bottom:10px solid black;
+    </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#2">Kho-Kho</button>
+        <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Total number of participants is 12 (including 3 Substitutes).</li>
+            <li>Timings: 14 minutes (7 for Chasing and 7 for Running) for each team</li>
+            <li>The organizer can modify the timings as per convenience.</li>
+            <li>Rules of KKFI will be applied.</li>
+          </ul>
+
+        </div>
+      
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/39PJzk53U1xWVJbJ3'">Register</button>
+
+    </div>
+
+      </div>
+    </div>
+    </div>
+
+    </div>
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#3">Basketball</button>
+        <div class="modal fade" id="3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>FIBA rules will apply.</li>
+            <li>10 mins each quarter with 2 min break between the quarters and 5 minutes at half time.</li>
+            <li>Teams should report to the Basket Ball court half an hour before commencement of the match.</li>
+            <li>All the players of the team should have same colour of jersey with printed numbers.</li>
+            <li>Maximum 10 players are allowed in a team.</li>
+            <li>No players should carry anything in his/her hand or neck (wrist watch, necklace, ring, kada, bracelet
+etc.).</li>
+          </ul>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+          <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/UpYauqOCjGXJ0sML2'">Register</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#4">Volleyball</button>
+        <div class="modal fade" id="4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" class="text" >
+        <ul >
+          <li>Maximum 9 players can be there in each team squad out of which only 6 will take the field.</li>
+          <li>All the matches will be of 15 points. First team to score 15 points will qualify for the next round.</li>
+          <li> The decisions given by the umpire will be strictly followed, if anyone misbehaves then their team will be disqualified.</li>
+          <li>The player played for one team will not be allowed to play for other teams, if found doing so, the team will then be disqualified.</li>
+        </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/dRNEzQDS70fqcpC82'">Register</button>
+
+                </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="indoor">
+  <div class="heading animated rubberBand" style="background-color: black;padding-top:0.1px;padding-bottom:0.1px;">
+    <h1 class="title" style="color: white;text-shadow: 1px 1px 1px white;">SINGLE / DUO  EVENTS</h1>
+  </div>
+
+<div class="d-flex flex-column align-items-center  flex-lg-row justify-content-around same flex-wrap" style="padding-top: 50px;padding-bottom: 50px;">
+
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#5" style="border-radius: 5px">Table Tennis</button>
+      <div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <ul>
+        <li> Students have to bring their college id-card.</li>
+         <li>Game will be played in two modes:-
+Singles
+Doubles
+Students have to bring their college id-card.</li>
+         <li>Those who want to play double has to come along with his team mate.</li>
+         <li>All the matches of first round will be of 21 points. Eight players from single and Eight team from doubles will move on to the second round.</li>
+         <li>Each match will be knockout.</li>
+         <li>Second round will be of 21 points, winners of this round will play semi final.</li>
+
+       </ul>
+
+      </div>
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/EuYHVZzsUr3tp5zN2'">Register</button>
+
+    </div>
 
 
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class='p-1'>
+      <button class="btn btn-lg btn-primary  animated bounce" data-toggle="modal" data-target="#6">Badminton</button>
+      <div class="modal fade" id="6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <ul>
+        <li>Students have to bring their college id-card.</li>
+        <li>Game will be played in two modes:-
+Singles
+Doubles
+</li>
+        <li>Those who want to play doubles have to come along with their team mates.</li>
+        <li>All the matches of first round will be of 15 points. Eight players from singles and Eight team from doubles will move on to the second round.</li>
+        <li> Each match will be knockout.</li>
+        <li>Second round will be of 21 points, winners of this round will play semi final.</li>
+        <li> Winner of final will be qualified directly for Endura.</li>
+        <li>Certificate will be provided to top 16.</li>
+        <li>Prize will be provided to the winners accordingly.</li>
+      </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/jXqb0kuVhtBua1xR2'">Register</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+  <div class="p-1">
+      <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#7">Chess</button>
+      <div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Fair play policy.</li>
+          <li>Participant should be clear with all the rules.</li>
+          <li>After two illegal moves or warning they will be disqualified.</li>
+          <li>Knockout rounds.</li>
+          <li>Use of CHESSCLOCK is mandatory.</li>
+          <li>Prize will be provided to the winners accordingly.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        <button type="button" class="btn btn-primary"  onclick="window.location.href='https://goo.gl/forms/ig2W2SgRakbb0h063'">Register</button>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<div class="outdoor ">
+    <div  class="heading animated bounce" style="background-color: black;padding-top: 0.1px;padding-bottom: 0.1px;">
+      <h1 class="title " style="color: white;text-shadow: 1px 1px 1px white;">ATHLETICS</h1>
+    </div>
+    <div class="d-flex flex-column align-items-center flex-lg-row justify-content-around same flex-wrap athletebox"  style="">
+
+    <div class="p-1">
+    <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#8">Track Race</button>
+    <div class="modal fade" id="8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <h5>RACE: 100m, 200m, 400m, 800m</h5>
+      <br>
+      <ul>
+        <li> In all races up to and including 400m, each athlete shall have a separate lane, with a width of 1.22m
+± 0.01m, including the lane line on the right, marked by white lines 50mm in width. All lanes shall
+be of the same nominal width.</li>
+        <li>The start of a race shall be denoted by a white line 50mm wide. In all races not run in lanes, the start
+line shall be curved, so that all the athletes start the same distance from the finish. Starting positions
+in events at all distances shall be numbered from left to right, facing the direction of running.T</li>
+<li>
+  An athlete, after assuming a full and final starting position, shall not commence his start until after
+receiving the report of the gun. If, in the judgment of the Starter or Recallers, he does so any earlier,
+it shall be deemed a false start.
+</li>
+  <br>
+        Participants: Maximum 2 in each category from each college
+</ul>
+
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/Rx3oVduiNoajHJ8H2'">Register</button>
+
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    <div class="p-1 ">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#9">Relay Race</button>
+        <div class="modal fade" id="9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"> <ul>
+          <h5>RELAY RACES 4X100m and 4X400m</h5>
+          <br>
+            <li>Each takeover zone shall be 20m long of which the scratch line is the centre. The zones shall start
+and finish at the edges of the zone lines nearest the start line in the running direction.</li>
+            <li>The relay baton shall be a smooth hollow tube, circular in section, made of wood, metal or any other
+rigid material in one piece, the length of which shall be 0.28m to 0.30m.</li>
+            <li>If dropped, the baton shall be recovered by the athlete who dropped it. He/she may leave his/her lane
+to retrieve it provided that, by doing so, he/she does not lessen the distance to be covered.</li>
+            <li>Passing of the baton outside the takeover zone shall result in disqualification. Each member of a
+relay team may run one leg only.</li>
+            <br>
+            Participants: 4 in relay race from each college.
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+          <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/O5JzjJF1QhY42Maj2'">Register</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#10">Long Jump</button>
+        <div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>The minimum length of the runway, measured from the relevant take-off line shall be 40m and,
+where conditions permit, 45m. It shall have a width of 1.22m ± 0.01m and shall be marked by white
+lines 50mm in width.</li>
+            <li>The take-off shall be marked by a board sunk level with the runway and the surface of the landing
+area. The edge of the board which is nearer to the landing area shall be the take-off line.</li>
+            <li>The landing area shall have a minimum width of 2.75m and a maximum width of 3m. The landing
+area should be filled with soft damp sand, the top surface of which shall be level with the take-off
+board.</li>
+            <li>All jumps shall be measured from the nearest break in the landing area made by any part of the body,
+or anything that was attached to the body at the time it made a mark, to the take-off line, or the
+measurement shall be taken perpendicular to the take-off line or its extension.</li>
+          </ul>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+          <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/ybhd80eRqbVuoEbu1'">Register</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#11">Shotput</button>
+        <div class="modal fade" id="11" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" class="text" >
+        <ul >
+          <li>The shot shall be put from the shoulder with one hand only. At the time an athlete takes a stance in the circle
+to commence a put, the shot shall touch or be in close proximity to the neck or the chin and the hand shall
+not be dropped below this position during the action of putting. The shot shall not be taken behind the line of
+the shoulders.</li>
+
+        </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                  <button type="button" class="btn btn-primary"  onclick="window.location.href='https://goo.gl/forms/a8mYG65OpTUsLUQ92'">Register</button>
+
+                </div>
+      </div>
+    </div>
+    </div>
+    </div>
+        <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#12">Javelin</button>
+        <div class="modal fade" id="12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" class="text" >
+        <ul >
+          <li>The minimum length of the runway shall be 30m. It shall be marked by two parallel white lines 50mm wide
+and 4m apart. The throw shall be made from behind an arc of a circle drawn with a radius of 8m and must
+fall in the given zone only.</li>
+
+        </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/a8mYG65OpTUsLUQ92'">Register</button>
+
+                </div>
+      </div>
+    </div>
+    </div>
+    </div>    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#13">High Jump</button>
+        <div class="modal fade" id="13" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" class="text" >
+        <ul >
+          <li>An athlete fails if:
+            <ul>
+              <li>After the jump, the bar does not remain on the supports because of the action of the athlete
+while jumping; or</li>
+<li>He touches the ground including the landing area beyond the vertical plane through the nearer
+edge of the crossbar, either between or outside the uprights with any part of his body, without
+first clearing the bar. However, if when he jumps, an</li>
+            </ul></li>
+          <li>Athlete touches the landing area with his foot and in the opinion of the Judge, no advantage is
+gained, the jump for that reason should not be considered a failure.</li>
+<li>He/she touches the crossbar or the vertical section of the uprights when running up without jumping.</li>
+        </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/ybhd80eRqbVuoEbu1'">Register</button>
+
+                </div>
+      </div>
+    </div>
+    </div>
+    </div>    <div class="p-1">
+        <button class="btn btn-lg btn-primary animated bounce" data-toggle="modal" data-target="#14">Discus Throw</button>
+        <div class="modal fade" id="14" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><h3>Rules & Regulations :-</h3></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" class="text" >
+          <h5>Rules Regarding Cage:</h5>
+          <br>
+        <ul >
+          <li>The construction and the strength of the cage should be such that it can arrest a disc of around 2Kg
+coming at a speed of 25m/sec..</li>
+          <li>The cage should have at least one side open. Therefore it is often recommended to construct it in a
+“U” shape.</li>
+
+        </ul><br>
+        <h5>Here are some important rules regarding throw:</h5>
+        <ul>
+          <li>The discus can only be thrown by an athlete when he or she will stand inside a circle which has a
+diameter of 2.5m.</li>
+<li>During the course of throw, the athletes are prohibited from touching the top of the rim. However,
+they can touch the inner part of the rim.</li>
+<li>An athlete cannot touch the ground beyond the circle.</li>
+
+
+        </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='https://goo.gl/forms/a8mYG65OpTUsLUQ92'">Register</button>
+
+                </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<!-- Only for small size display -->
+<section class="d-md-none" id="mobile"> 
+  <div class="mobileregister" style="padding-left: 70px;padding-top: 20px;padding-bottom: 20px;">
+   
+   
+                 <a href="RegistrationForm.pdf" target="_blank"  type = 'application/pdf'> <button type="button" class="btn btn-secondary" id="mob2">Registration Form</button> </a>
+    <a href="Rules&Regulations.pdf" target="_blank" type="application/pdf">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal" id="mob1">Rule Book</button>
+
+    </a>
+  </div>
+
+</section>
+<!-- About us -->
+<!-- Section: Team v.1 -->
+<section class="team-section text-center " id="abouts">
+<div id="abt" >
+  <!-- Section heading -->
+  <div style="background-color: black;padding-top: 16px;padding-bottom: 16px;padding-left: 200px;margin-bottom:  10px;">
+  <h2 class="h1-responsive font-weight-bold" id="abtu" style="color: white;text-shadow: 1px 1px 1px 1px white;">General Rules & Regulations</h2>
+</div>
+  <!-- Section description -->
+
+
+  <!-- Grid row -->
+  <div class="container">
+  <div class="row" >
+
+    <!-- Grid column -->
+    <div >
+
+      <div class="listofgame" style="left: 100px;position: relative;">
+      <ol  >
+        <li style="color: black;text-shadow: 0.8px 0.8px 0.8px black;box-shadow: 5px 5px 5px black;">All the participants should bring their college Identity Card.</li>
+        <li style="color: black;text-shadow: 0.8px 0.8px 0.8px black;box-shadow: 5px 5px 5px black;">All the participants should bring No Objection Certificate from Director/Principle of the concerned
+college. Event wise list of participants may be prepared for this purpose.</li>
+        <li style="color: black;text-shadow: 0.8px 0.8px 0.8px black;box-shadow: 5px 5px 5px black;">One player can participate in maximum 3 events.</li>
+        <li style="color: black;text-shadow: 0.8px 0.8px 0.8px black;box-shadow: 5px 5px 5px black;">Only 1 team can participate from each college.</li>
+        <li style="color: black;text-shadow: 0.8px 0.8px 0.8px black;box-shadow: 5px 5px 5px black;">Only 2 participants can participate at the max from each college for the individual events</li>
+
+
+        <li style="color: black;text-shadow: 0.8px 0.8px 0.8px black;box-shadow: 5px 5px 5px black;">All Participants must ensure that they get the registration form given below positively attested by their respective college Director/Dean.</li>
+
+
+      </ol></div>
+      <div class="reginfo">
+      <div id="aboutusbox">REGISTRATION VENUE :-SPORTS CLUB, MIET
+        <br>
+DATE :- 01-NOV-2018
+<br>
+TIMING :- 10:00 AM ONWARDS
+</div>
+
+      <a href="RegistrationForm.pdf" target="_blank" type="submit" type = 'application/pdf' class="regbutton" ><button class="btn btn-secondary btn-lg"   id="reg">Registration Form</button></a>
+  </div>
+  </div>
+</div>
+  </div>
+  <!-- Grid row -->
+</div>
+</section>
+
+<!-- Section: Team v.1 -->
+<section id="contact">
+  <div class="row imgc">
+  <div class="col-lg-12">
+    <div class="heading">
+      <h1 class="title meerut"><b>MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY,MEERUT</b>
+      <div class="details">
+        <div class="address">
+          <p class="add">N.H. 58, Delhi-Roorkee Highway, Baghpat Road Bypass Crossing Meerut - 250005. UP (India)</p>
+        </div>
+        <div class="contact">
+          <p class="number" id="con">
+            Phone : 0121-2439019/2439057  &nbsp &nbsp
+            Fax : 0121-2439058
+          </p>
+        </div>
+        <div class="email">
+          <label for="mail">Email:</label>
+          <a href="mailto:contact@miet.ac.in" id="mail"><i>contact@miet.ac.in</i></a>
+        </div>
+        <div class="social">
+          <ul class="list-unstyled mb-0">
+            <a  class="p-2 fa-lg link-ic" href="https://www.linkedin.com/school/mietgroup/" target="_blank">
+              <i class="fa fa-linkedin " id="ldin"> </i>
+            </a>
+            <a class="p-2 fa-lg fb-ic" href='https://www.facebook.com/MIETGROUP/' target="_blank">
+              <i class="fa fa-facebook" id="fb"> </i>
+            </a>
+            <a class="p-2 fa-lg globe-ic" href='https://miet.ac.in' target="_blank">
+              <i class="fa fa-globe" id="gb"> </i>
+            </a>
+            <a class="p-2 fa-lg ins-ic" href='https://instagram.com/mietmeerut' target="_blank">
+              <i class="fa fa-instagram" id="ins"> </i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-12" id="map">
+    <div style="width: 100%"><iframe width="100%" height="386" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=28.9719684,77.6410807842401&amp;q=miet%20college%20%2Cmeerut+(MIET)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+  </div>
+</div>
+</section>
+<div class="row" style="margin-top: 20px;margin-bottom: 20px;">
+  <div class="column">
+    <div class="card">
+      <h3 style="font-family: Times New Roman;font-weight: bolder;">Faculty Incharge</h3>
+      <p style="font-weight: bolder;">Prof. Lalit Kumar (MCA)</p>
+      <p style="font-weight: bold;"><i class="fa fa-phone" style="font-size:24px;padding-right: 8px;"></i>9456204573</p>
+      <p style="font-weight: bolder;">Prof. Sumit Siddhu (IT)</p>
+      <p style="font-weight: bold;"><i class="fa fa-phone" style="font-size:24px;padding-right: 8px;"></i>8909557909</p>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <h3 style="font-family: Times New Roman;font-weight: bolder;">Student Coordinators</h3>
+       <p style="font-weight: bolder;">Love Gupta (CSE 4th)</p>
+      <p style="font-weight: bold;"><i class="fa fa-phone" style="font-size:24px;padding-right: 8px;"></i>8909557909</p>
+      <p style="font-weight: bolder;">Siddhant Srivastava (CSE 4th)</p>
+      <p style="font-weight: bold;"><i class="fa fa-phone" style="font-size:24px;padding-right: 8px;"></i>9793100233</p>
+     
+    </div>
+  </div>
+  <div class="column" >
+    <div class="card">
+      <h3 style="font-family: Times New Roman;font-weight: bolder;">Coordinating Staff</h3>
+      <p style="font-weight: bolder;">Mr. Mukesh Rana</p>
+      <p style="padding-bottom: 67px;font-weight: bolder;"><i class="fa fa-phone" style="font-size:24px;padding-right: 8px;padding-bottom: 20px;"></i>8474900098</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+<footer class="footer">
+
+  <div class="foot">
+        <div class="ushead" style="padding-top: 4px;padding-bottom: 4px;color: white">Designed By :</div>
+          <div class=" row container">
+            <div class="col-md-6 col-12 us1">
+              <div class="us1name" style="color: white;font-size: 18px;">Himanshu Sharma(CSE 3rd) </div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='https://www.linkedin.com/in/himanshu200599/' target="_blank">
+                <i class="fa fa-linkedin" id="fb" style="color: #0077B5"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='https://www.github.com/himanshush200599/' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+            <div class="col-12 col-md-6 us2">
+              <div class="us1name" style="color: white;font-size: 18px;">Himanshu Shukla(CSE 3rd)</div>
+              <div class="socialus">
+              <span>
+                <a class="p-2 fa-lg link-ic" href='https://www.linkedin.com/in/himanshu-shukla-33a487147/' target="_blank">
+                <i class="fa fa-linkedin" id="fb" style="color: #0077B5"> </i>
+              </a>
+            </span>
+            <span>
+              <a class="p-2 fa-lg git-ic" href='https://github.com/HimanshuShuklaCS16' target="_blank">
+              <i class="fa fa-github" id="fb"> </i>
+            </a>
+
+          </span>
+        </div>
+            </div>
+          </div>
+
+
+</div>
+
+</footer>
+
+
+
+<script>
+$(document).ready(function () {
+  $('nav a').click(function(e) {
+
+      $('nav  a').removeClass('active');
+
+      var $parent = $(this);
+      $parent.addClass('active');
+      $parent.scrollIntoView({
+  behavior: 'smooth'
+});
+
+  });
+});
+</script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+document.getElementById("navbar1").style.top = "0";
+document.getElementById("navbar1").style.zIndex = "999";
+
+} else {
+document.getElementById("navbar1").style.top = "-50px";
 }
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
