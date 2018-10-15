@@ -151,19 +151,11 @@ text-shadow: 2px 2px 2px 2px white;
 {
 background-color: #ccffff;
 height: 875px;
-background: rgb(8,62,3);
-background: -moz-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 0%, rgba(30,51,37,0.34217436974789917) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: -webkit-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 0%, rgba(30,51,37,0.34217436974789917) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 0%, rgba(30,51,37,0.34217436974789917) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endColorstr="#12260f",GradientType=1); font-size: 18px;
-  margin-bottom: 0;
-  height: 875px;
 }
 #listofgame
 {
   color:white;
   font-size: 18px;
-  text-shadow: 1px 1px 1px black;
   margin-right: 5px;
 }
 #aboutusbox
@@ -179,12 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endCo
   box-shadow: 1px 1px 1px 1px black;
   margin:10px auto;
 
-
   color: black;
-
-  color: white;
-  text-shadow: 1px 1px 1px black;
-
 
 }
 ul{
@@ -300,7 +287,6 @@ font-family:"Segoe UI",Arial,sans-serif;
   position:fixed;
   top: -50px;
   transition: top 0.3s;
-  opacity: 0.6;
 }
 .poster{
   width: 100%;
@@ -350,13 +336,6 @@ box-shadow: 2px 2px 2px 2px black;
 }
 .outdoor{
  background: #ccffff;
-
- background: rgb(8,62,3);
-background: -moz-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: -webkit-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endColorstr="#12260f",GradientType=1); background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
@@ -367,13 +346,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endCo
 .indoor{
 background-color: #ccffff;
  height: auto;
-background: rgb(8,62,3);
-background: -moz-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: -webkit-linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-background: linear-gradient(0deg, rgba(8,62,3,1) 0%, rgba(97,107,96,1) 2%, rgba(44,63,47,0.5382528011204482) 10%, rgba(36,54,34,0.5466561624649859) 100%, rgba(33,51,30,0.4766281512605042) 100%, rgba(18,38,15,0.44861694677871145) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#083e03",endColorstr="#12260f",GradientType=1); background-size: cover;  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
   width: 100%;
 }
 section img{
